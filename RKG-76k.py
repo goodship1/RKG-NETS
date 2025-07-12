@@ -24,7 +24,6 @@ b = torch.tensor(b_np, dtype=torch.float32)
 
 # Optional – pre-compute c_i = Σ_j<i a_ij  (saves flops)
 c = a.tril(-1).sum(1)
-print("256")
 # ------------------------
 # -----------------------------------------------------------
 # 3.  ODE vector field  (depthwise → channel-wise convs)
@@ -86,11 +85,11 @@ class TinyODESRK(nn.Module):
     def __init__(self):
         super().__init__()
         self.encoder = nn.Sequential(
-            nn.Conv2d(3, 256, 3, padding=1, bias=False),
+            nn.Conv2d(3, 64, 3, padding=1, bias=False),
             nn.SiLU(),
             nn.MaxPool2d(2)
         )
-        self.ode  = ESRKBlock(ODEFunc(256), a, b, c, h=1, steps=1)
+        self.ode  = ESRKBlock(ODEFunc(64), a, b, c, h=1, steps=1)
         self.head = nn.Sequential(
             nn.AdaptiveAvgPool2d(1), nn.Flatten(), nn.Linear(256, 10, bias=False)
         )
