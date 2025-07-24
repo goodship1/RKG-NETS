@@ -1,3 +1,4 @@
+ ann.png             comp3.png                       ga.py                         kl.png                               'Numerical checker'                           stokes4x4.png
 gavin@Nitro-AN515-58-df85a443:~$ python3 bz.py
 Epoch 00  train=31.99%  val=31.72%  σ_est≈0.380  time=44.7s
 Epoch 01  train=37.04%  val=37.68%  σ_est≈0.407  time=44.9s
@@ -157,3 +158,83 @@ Epoch 130  train=79.91%  val=76.79%  σ_est≈1.062  time=66.8s
 Epoch 131  train=79.50%  val=77.21%  σ_est≈1.005  time=65.5s
 Epoch 132  train=79.86%  val=77.44%  σ_est≈1.002  time=67.6s
 Epoch 133  train=79.87%  val=77.61%  σ_est≈1.120  time=45.8s
+Epoch 134  train=79.85%  val=77.40%  σ_est≈1.129  time=49.6s
+Epoch 135  train=79.86%  val=77.07%  σ_est≈1.159  time=49.1s
+Epoch 136  train=80.16%  val=77.46%  σ_est≈1.292  time=49.6s
+Epoch 137  train=80.59%  val=78.14%  σ_est≈1.034  time=50.3s
+Epoch 138  train=79.91%  val=77.28%  σ_est≈1.068  time=51.1s
+Epoch 139  train=79.85%  val=77.33%  σ_est≈0.997  time=50.0s
+Epoch 140  train=80.36%  val=77.44%  σ_est≈1.035  time=50.8s
+Epoch 141  train=80.17%  val=77.70%  σ_est≈1.130  time=63.5s
+Epoch 142  train=80.28%  val=77.54%  σ_est≈1.363  time=52.1s
+Epoch 143  train=80.30%  val=77.92%  σ_est≈1.273  time=53.1s
+Epoch 144  train=80.81%  val=78.09%  σ_est≈1.231  time=52.5s
+Epoch 145  train=80.40%  val=77.72%  σ_est≈1.138  time=53.3s
+Epoch 146  train=80.66%  val=77.43%  σ_est≈1.031  time=55.2s
+Epoch 147  train=80.68%  val=77.78%  σ_est≈1.211  time=57.1s
+Epoch 148  train=80.56%  val=77.13%  σ_est≈1.121  time=64.4s
+Epoch 149  train=80.78%  val=78.35%  σ_est≈1.223  time=68.1s
+Epoch 150  train=81.09%  val=78.25%  σ_est≈1.147  time=74.3s
+Epoch 151  train=80.93%  val=78.15%  σ_est≈1.035  time=81.2s
+Epoch 152  train=80.96%  val=78.73%  σ_est≈1.122  time=87.0s
+Epoch 153  train=80.88%  val=78.24%  σ_est≈1.131  time=90.7s
+Epoch 154  train=81.14%  val=78.21%  σ_est≈1.042  time=97.3s
+Epoch 155  train=81.07%  val=78.82%  σ_est≈1.057  time=104.0s
+Epoch 156  train=80.92%  val=78.06%  σ_est≈1.082  time=106.0s
+Epoch 157  train=81.24%  val=77.69%  σ_est≈1.167  time=95.9s
+Epoch 158  train=81.34%  val=78.06%  σ_est≈1.213  time=94.7s
+Epoch 159  train=81.18%  val=78.42%  σ_est≈1.099  time=94.3s
+Epoch 160  train=81.54%  val=78.38%  σ_est≈1.137  time=92.8s
+Epoch 161  train=81.54%  val=78.02%  σ_est≈1.045  time=98.6s
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/usr/lib/python3.10/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/usr/lib/python3.10/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/usr/lib/python3.10/shutil.py", line 731, in rmtree
+    onerror(os.rmdir, path, sys.exc_info())
+  File "/usr/lib/python3.10/shutil.py", line 729, in rmtree
+    os.rmdir(path)
+OSError: [Errno 39] Directory not empty: '/tmp/pymp-q_tzanab'
+Epoch 162  train=81.61%  val=78.15%  σ_est≈1.169  time=101.3s
+Epoch 163  train=81.20%  val=78.31%  σ_est≈0.919  time=106.8s
+Epoch 164  train=81.61%  val=78.23%  σ_est≈1.110  time=94.8s
+Epoch 165  train=81.69%  val=78.80%  σ_est≈1.112  time=92.9s
+Epoch 166  train=81.70%  val=78.10%  σ_est≈1.101  time=90.2s
+Epoch 167  train=81.51%  val=78.60%  σ_est≈1.225  time=81.3s
+Epoch 168  train=81.57%  val=78.69%  σ_est≈1.025  time=58.2s
+Epoch 169  train=81.62%  val=78.58%  σ_est≈0.962  time=55.3s
+Epoch 170  train=81.66%  val=78.71%  σ_est≈0.985  time=53.2s
+Epoch 171  train=81.85%  val=78.47%  σ_est≈1.143  time=52.5s
+Epoch 172  train=81.79%  val=78.09%  σ_est≈1.048  time=51.8s
+Epoch 173  train=81.79%  val=78.48%  σ_est≈1.082  time=51.4s
+Epoch 174  train=81.77%  val=78.57%  σ_est≈1.063  time=51.3s
+Epoch 175  train=82.19%  val=79.04%  σ_est≈1.131  time=51.4s
+Epoch 176  train=82.05%  val=78.91%  σ_est≈1.017  time=51.0s
+Epoch 177  train=81.86%  val=78.93%  σ_est≈1.035  time=51.2s
+cEpoch 178  train=81.83%  val=79.03%  σ_est≈1.127  time=50.7s
+Epoch 179  train=82.01%  val=78.93%  σ_est≈1.032  time=50.8s
+Epoch 180  train=81.94%  val=79.46%  σ_est≈1.033  time=50.8s
+Epoch 181  train=82.21%  val=78.99%  σ_est≈1.125  time=51.2s
+Epoch 182  train=82.38%  val=79.01%  σ_est≈1.098  time=51.0s
+Epoch 183  train=82.22%  val=79.08%  σ_est≈0.961  time=51.0s
+Epoch 184  train=82.02%  val=79.14%  σ_est≈1.018  time=51.0s
+Epoch 185  train=82.21%  val=78.78%  σ_est≈1.042  time=50.7s
+Epoch 186  train=82.27%  val=78.67%  σ_est≈1.019  time=51.5s
+Epoch 187  train=82.33%  val=79.08%  σ_est≈0.994  time=50.1s
+Epoch 188  train=82.01%  val=78.95%  σ_est≈1.077  time=49.9s
+Epoch 189  train=82.09%  val=78.81%  σ_est≈1.142  time=50.2s
+Epoch 190  train=82.29%  val=78.92%  σ_est≈0.991  time=50.8s
+Epoch 191  train=82.08%  val=78.37%  σ_est≈1.188  time=51.1s
+Epoch 192  train=82.12%  val=78.70%  σ_est≈0.940  time=50.7s
+Epoch 193  train=82.14%  val=79.24%  σ_est≈1.074  time=50.8s
+Epoch 194  train=82.23%  val=78.67%  σ_est≈1.115  time=50.1s
+Epoch 195  train=82.27%  val=78.94%  σ_est≈0.981  time=51.6s
+Epoch 196  train=82.13%  val=79.18%  σ_est≈0.988  time=51.5s
+Epoch 197  train=82.37%  val=78.78%  σ_est≈1.101  time=50.5s
+Epoch 198  train=82.35%  val=78.88%  σ_est≈1.076  time=50.2s
+Epoch 199  train=82.38%  val=79.11%  σ_est≈1.119  time=50.8s
+Total training: 200.8 min
+Saved checkpoint.
