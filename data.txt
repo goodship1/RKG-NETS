@@ -1,0 +1,400 @@
+gavin@Nitro-AN515-58-df85a443:~$ python3 bx.py rk4
+Trainable parameters: 104,025
+Ep000 train=42.65% val=42.75% σ̂=1.711 hσ=  3.9 time=170.6s
+Ep001 train=56.37% val=56.27% σ̂=1.773 hσ=  4.1 time=206.9s
+Ep002 train=61.35% val=61.35% σ̂=1.905 hσ=  4.4 time=186.4s
+Ep003 train=65.38% val=64.10% σ̂=2.184 hσ=  5.0 time=205.4s
+Ep004 train=66.32% val=65.57% σ̂=2.280 hσ=  5.2 time=200.0s
+Ep005 train=63.98% val=63.17% σ̂=2.373 hσ=  5.5 time=247.6s
+Ep006 train=71.09% val=69.54% σ̂=2.806 hσ=  6.5 time=193.4s
+Ep007 train=69.89% val=69.08% σ̂=2.688 hσ=  6.2 time=205.9s
+Ep008 train=71.90% val=70.61% σ̂=2.100 hσ=  4.8 time=198.5s
+Ep009 train=74.24% val=72.73% σ̂=2.213 hσ=  5.1 time=200.4s
+Ep010 train=75.36% val=73.81% σ̂=1.914 hσ=  4.4 time=183.5s
+Ep011 train=76.19% val=73.56% σ̂=2.338 hσ=  5.4 time=190.4s
+Ep012 train=76.41% val=74.28% σ̂=1.851 hσ=  4.3 time=188.8s
+Ep013 train=77.47% val=75.17% σ̂=1.999 hσ=  4.6 time=120.7s
+Ep014 train=76.24% val=73.96% σ̂=2.250 hσ=  5.2 time=104.5s
+Ep015 train=79.66% val=76.92% σ̂=2.075 hσ=  4.8 time= 98.0s
+Ep016 train=77.99% val=75.99% σ̂=2.136 hσ=  4.9 time=100.5s
+Ep017 train=78.63% val=76.28% σ̂=1.907 hσ=  4.4 time= 95.0s
+Ep018 train=79.36% val=76.80% σ̂=1.489 hσ=  3.4 time= 98.5s
+Ep019 train=79.18% val=77.32% σ̂=2.006 hσ=  4.6 time= 94.1s
+Ep020 train=80.48% val=77.85% σ̂=1.955 hσ=  4.5 time=103.1s
+Ep021 train=81.45% val=79.28% σ̂=2.059 hσ=  4.7 time= 97.5s
+Ep022 train=79.80% val=77.50% σ̂=1.880 hσ=  4.3 time=104.8s
+Ep023 train=81.29% val=78.37% σ̂=2.284 hσ=  5.3 time= 98.2s
+Ep024 train=80.76% val=77.83% σ̂=1.854 hσ=  4.3 time=104.6s
+Ep025 train=80.77% val=78.48% σ̂=2.173 hσ=  5.0 time=100.2s
+Ep026 train=81.57% val=79.05% σ̂=1.825 hσ=  4.2 time=105.2s
+Ep027 train=81.80% val=78.66% σ̂=2.072 hσ=  4.8 time=102.2s
+Ep028 train=79.88% val=77.52% σ̂=1.889 hσ=  4.3 time=107.6s
+Ep029 train=82.06% val=79.42% σ̂=2.301 hσ=  5.3 time=103.9s
+Ep030 train=83.12% val=80.24% σ̂=2.052 hσ=  4.7 time=106.1s
+Ep031 train=82.40% val=79.32% σ̂=1.617 hσ=  3.7 time=106.7s
+Ep032 train=81.98% val=78.89% σ̂=2.015 hσ=  4.6 time=105.2s
+Ep033 train=81.47% val=78.12% σ̂=1.795 hσ=  4.1 time=107.2s
+Ep034 train=83.15% val=80.35% σ̂=2.263 hσ=  5.2 time=105.0s
+Ep035 train=82.53% val=79.21% σ̂=1.795 hσ=  4.1 time=104.5s
+Ep036 train=83.35% val=79.79% σ̂=2.055 hσ=  4.7 time=103.7s
+Ep037 train=83.39% val=80.14% σ̂=2.187 hσ=  5.0 time=103.9s
+Ep038 train=83.11% val=79.99% σ̂=2.258 hσ=  5.2 time=101.1s
+Ep039 train=82.14% val=79.37% σ̂=2.273 hσ=  5.2 time=105.6s
+Ep040 train=84.24% val=80.90% σ̂=2.277 hσ=  5.2 time=101.4s
+Ep041 train=82.74% val=79.27% σ̂=1.767 hσ=  4.1 time=106.0s
+Ep042 train=83.48% val=80.57% σ̂=2.015 hσ=  4.6 time=101.0s
+Ep043 train=83.80% val=80.82% σ̂=2.049 hσ=  4.7 time=107.4s
+Ep044 train=82.40% val=79.36% σ̂=2.249 hσ=  5.2 time=100.1s
+Ep045 train=83.94% val=81.24% σ̂=2.121 hσ=  4.9 time=106.9s
+Ep046 train=83.40% val=80.32% σ̂=1.804 hσ=  4.2 time=107.2s
+Ep047 train=83.91% val=80.89% σ̂=2.073 hσ=  4.8 time=132.8s
+Ep048 train=83.87% val=80.76% σ̂=2.069 hσ=  4.8 time=131.2s
+Ep049 train=83.99% val=80.76% σ̂=2.032 hσ=  4.7 time=151.6s
+Ep050 train=84.91% val=81.35% σ̂=2.210 hσ=  5.1 time=153.9s
+Ep051 train=83.78% val=80.90% σ̂=1.851 hσ=  4.3 time=170.4s
+Ep052 train=85.04% val=80.99% σ̂=2.115 hσ=  4.9 time=172.4s
+Ep053 train=84.18% val=80.63% σ̂=2.025 hσ=  4.7 time=187.4s
+Ep054 train=85.67% val=82.02% σ̂=1.999 hσ=  4.6 time=185.0s
+Ep055 train=83.28% val=79.64% σ̂=2.478 hσ=  5.7 time=198.4s
+Ep056 train=85.61% val=81.65% σ̂=2.143 hσ=  4.9 time=206.4s
+Ep057 train=85.20% val=81.39% σ̂=1.720 hσ=  4.0 time=208.1s
+Ep058 train=85.80% val=81.99% σ̂=2.100 hσ=  4.8 time=221.5s
+Ep059 train=85.59% val=81.94% σ̂=2.148 hσ=  4.9 time=223.3s
+Ep060 train=85.06% val=81.21% σ̂=2.139 hσ=  4.9 time=238.9s
+Ep061 train=83.94% val=80.66% σ̂=1.976 hσ=  4.5 time=227.2s
+Ep062 train=86.92% val=82.47% σ̂=2.126 hσ=  4.9 time=245.2s
+Ep063 train=85.72% val=82.11% σ̂=1.988 hσ=  4.6 time=233.3s
+Ep064 train=86.25% val=82.25% σ̂=2.079 hσ=  4.8 time=247.6s
+Ep065 train=86.21% val=82.41% σ̂=1.938 hσ=  4.5 time=229.2s
+Ep066 train=85.42% val=81.62% σ̂=2.050 hσ=  4.7 time=250.0s
+Ep067 train=84.96% val=81.23% σ̂=1.943 hσ=  4.5 time=231.9s
+Ep068 train=86.60% val=82.36% σ̂=1.895 hσ=  4.4 time=244.7s
+Ep069 train=87.03% val=82.74% σ̂=1.829 hσ=  4.2 time=230.4s
+Ep070 train=85.38% val=81.23% σ̂=1.851 hσ=  4.3 time=235.5s
+Ep071 train=86.18% val=81.98% σ̂=1.620 hσ=  3.7 time=233.3s
+Ep072 train=86.76% val=82.80% σ̂=2.121 hσ=  4.9 time=238.0s
+Ep073 train=86.93% val=83.19% σ̂=1.693 hσ=  3.9 time=242.3s
+Ep074 train=87.00% val=83.25% σ̂=1.993 hσ=  4.6 time=234.3s
+Ep075 train=85.67% val=81.45% σ̂=1.805 hσ=  4.2 time=245.9s
+Ep076 train=87.12% val=82.88% σ̂=1.996 hσ=  4.6 time=234.5s
+Ep077 train=87.49% val=83.16% σ̂=1.593 hσ=  3.7 time=245.7s
+Ep078 train=87.19% val=82.42% σ̂=2.264 hσ=  5.2 time=232.7s
+Ep079 train=87.97% val=83.62% σ̂=2.097 hσ=  4.8 time=258.1s
+Ep080 train=87.92% val=83.82% σ̂=1.859 hσ=  4.3 time=243.9s
+Ep081 train=88.08% val=83.52% σ̂=1.936 hσ=  4.5 time=268.2s
+Ep082 train=87.91% val=83.64% σ̂=2.068 hσ=  4.8 time=252.0s
+Ep083 train=87.99% val=83.53% σ̂=2.036 hσ=  4.7 time=263.0s
+Ep084 train=88.39% val=83.67% σ̂=2.040 hσ=  4.7 time=254.5s
+Ep085 train=88.51% val=83.37% σ̂=1.939 hσ=  4.5 time=213.9s
+Ep086 train=87.95% val=83.28% σ̂=1.857 hσ=  4.3 time=177.5s
+Ep087 train=87.70% val=83.45% σ̂=1.926 hσ=  4.4 time=177.1s
+Ep088 train=88.09% val=82.81% σ̂=2.476 hσ=  5.7 time=169.7s
+Ep089 train=88.74% val=83.65% σ̂=1.935 hσ=  4.4 time=161.9s
+Ep090 train=88.82% val=83.16% σ̂=2.066 hσ=  4.8 time=168.6s
+Ep091 train=88.52% val=83.58% σ̂=1.944 hσ=  4.5 time=170.9s
+Ep092 train=88.73% val=83.76% σ̂=1.936 hσ=  4.5 time=176.1s
+Ep093 train=89.38% val=83.65% σ̂=1.898 hσ=  4.4 time=172.7s
+Ep094 train=88.56% val=83.61% σ̂=2.033 hσ=  4.7 time=176.3s
+Ep095 train=89.56% val=84.18% σ̂=2.103 hσ=  4.8 time=173.0s
+Ep096 train=89.33% val=84.29% σ̂=1.733 hσ=  4.0 time=185.4s
+Ep097 train=88.66% val=83.43% σ̂=2.034 hσ=  4.7 time=167.6s
+Ep098 train=89.60% val=84.13% σ̂=2.085 hσ=  4.8 time=177.8s
+Ep099 train=89.38% val=84.07% σ̂=2.108 hσ=  4.8 time=165.6s
+Ep100 train=89.91% val=84.52% σ̂=1.985 hσ=  4.6 time=172.9s
+Ep101 train=90.42% val=85.03% σ̂=1.746 hσ=  4.0 time=164.7s
+Ep102 train=89.98% val=84.14% σ̂=2.004 hσ=  4.6 time=175.4s
+Ep103 train=90.23% val=84.52% σ̂=2.045 hσ=  4.7 time=157.5s
+Ep104 train=89.99% val=84.27% σ̂=2.013 hσ=  4.6 time=150.1s
+Ep105 train=89.20% val=83.02% σ̂=2.062 hσ=  4.7 time=137.6s
+Ep106 train=90.77% val=85.21% σ̂=1.900 hσ=  4.4 time=141.6s
+Ep107 train=91.11% val=85.55% σ̂=1.716 hσ=  3.9 time=130.5s
+Ep108 train=90.84% val=85.20% σ̂=2.017 hσ=  4.6 time=133.9s
+Ep109 train=90.78% val=84.58% σ̂=1.838 hσ=  4.2 time=130.0s
+Ep110 train=90.58% val=85.23% σ̂=2.211 hσ=  5.1 time=133.6s
+Ep111 train=89.49% val=83.81% σ̂=1.856 hσ=  4.3 time=126.8s
+Ep112 train=91.36% val=85.15% σ̂=1.993 hσ=  4.6 time=129.9s
+Ep113 train=91.23% val=84.94% σ̂=1.749 hσ=  4.0 time=128.3s
+Ep114 train=90.39% val=84.29% σ̂=2.046 hσ=  4.7 time=125.9s
+Ep115 train=91.83% val=85.03% σ̂=1.832 hσ=  4.2 time=127.1s
+Ep116 train=91.30% val=85.00% σ̂=2.178 hσ=  5.0 time=123.2s
+Ep117 train=90.80% val=84.93% σ̂=1.837 hσ=  4.2 time=129.6s
+Ep118 train=91.35% val=85.23% σ̂=2.148 hσ=  4.9 time=123.9s
+Ep119 train=91.57% val=84.71% σ̂=1.869 hσ=  4.3 time=127.5s
+Ep120 train=91.43% val=85.09% σ̂=1.860 hσ=  4.3 time=122.0s
+Ep121 train=91.95% val=85.14% σ̂=1.865 hσ=  4.3 time=132.4s
+Ep122 train=91.48% val=85.06% σ̂=1.792 hσ=  4.1 time=120.6s
+Ep123 train=91.66% val=84.46% σ̂=2.086 hσ=  4.8 time=132.2s
+Ep124 train=92.29% val=85.39% σ̂=1.895 hσ=  4.4 time=120.6s
+Ep125 train=92.32% val=84.80% σ̂=1.801 hσ=  4.1 time=132.5s
+Ep126 train=92.29% val=85.44% σ̂=1.725 hσ=  4.0 time=121.8s
+Ep127 train=92.62% val=85.65% σ̂=1.927 hσ=  4.4 time=132.4s
+Ep128 train=92.31% val=85.25% σ̂=1.806 hσ=  4.2 time=122.6s
+Ep129 train=92.93% val=85.38% σ̂=1.850 hσ=  4.3 time=130.8s
+Ep130 train=92.76% val=85.89% σ̂=2.232 hσ=  5.1 time=123.0s
+Ep131 train=93.07% val=85.67% σ̂=1.782 hσ=  4.1 time=132.4s
+Ep132 train=93.00% val=85.42% σ̂=1.771 hσ=  4.1 time=125.0s
+Ep133 train=93.31% val=85.74% σ̂=1.971 hσ=  4.5 time=130.1s
+Ep134 train=93.22% val=86.14% σ̂=1.996 hσ=  4.6 time=123.6s
+Ep135 train=93.40% val=85.83% σ̂=2.136 hσ=  4.9 time=120.3s
+Ep136 train=93.55% val=86.02% σ̂=1.688 hσ=  3.9 time=117.8s
+Ep137 train=93.49% val=85.92% σ̂=1.976 hσ=  4.5 time=116.3s
+Ep138 train=93.66% val=85.86% σ̂=1.942 hσ=  4.5 time=111.7s
+Ep139 train=93.82% val=85.83% σ̂=2.097 hσ=  4.8 time=114.5s
+Ep140 train=93.76% val=85.83% σ̂=1.834 hσ=  4.2 time=113.6s
+Ep141 train=94.32% val=85.75% σ̂=2.104 hσ=  4.8 time=108.8s
+Ep142 train=93.75% val=85.82% σ̂=1.736 hσ=  4.0 time=111.7s
+Ep143 train=94.19% val=86.33% σ̂=1.809 hσ=  4.2 time=108.4s
+Ep144 train=94.34% val=86.12% σ̂=1.815 hσ=  4.2 time=111.8s
+Ep145 train=94.35% val=85.96% σ̂=2.014 hσ=  4.6 time=106.1s
+Ep146 train=94.28% val=85.81% σ̂=1.902 hσ=  4.4 time=112.1s
+Ep147 train=94.19% val=85.96% σ̂=1.762 hσ=  4.1 time=105.9s
+Ep148 train=94.45% val=86.04% σ̂=1.917 hσ=  4.4 time=114.7s
+Ep149 train=94.79% val=86.34% σ̂=1.932 hσ=  4.4 time=104.0s
+Ep150 train=94.58% val=85.98% σ̂=1.820 hσ=  4.2 time=114.1s
+Ep151 train=94.79% val=85.85% σ̂=2.081 hσ=  4.8 time=102.0s
+Ep152 train=94.59% val=85.76% σ̂=1.734 hσ=  4.0 time=109.0s
+Ep153 train=94.85% val=85.98% σ̂=1.871 hσ=  4.3 time=101.7s
+Ep154 train=94.88% val=86.00% σ̂=1.852 hσ=  4.3 time=110.4s
+Ep155 train=95.33% val=86.10% σ̂=1.833 hσ=  4.2 time=102.9s
+Ep156 train=95.22% val=86.41% σ̂=1.987 hσ=  4.6 time=109.1s
+Ep157 train=95.25% val=86.57% σ̂=1.722 hσ=  4.0 time=101.8s
+Ep158 train=95.31% val=86.35% σ̂=1.727 hσ=  4.0 time=113.6s
+Ep159 train=95.24% val=86.14% σ̂=1.903 hσ=  4.4 time=104.1s
+Ep160 train=95.55% val=86.59% σ̂=1.795 hσ=  4.1 time=109.2s
+Ep161 train=95.49% val=86.21% σ̂=1.650 hσ=  3.8 time=104.8s
+Ep162 train=95.71% val=86.36% σ̂=1.739 hσ=  4.0 time=110.1s
+Ep163 train=95.57% val=86.40% σ̂=1.765 hσ=  4.1 time=108.5s
+Ep164 train=95.78% val=86.14% σ̂=1.934 hσ=  4.4 time=109.3s
+Ep165 train=95.74% val=86.57% σ̂=1.776 hσ=  4.1 time=110.0s
+Ep166 train=96.01% val=86.73% σ̂=1.747 hσ=  4.0 time=108.7s
+Ep167 train=95.71% val=86.27% σ̂=1.842 hσ=  4.2 time=110.2s
+Ep168 train=96.12% val=86.38% σ̂=1.611 hσ=  3.7 time=112.3s
+Ep169 train=96.13% val=86.32% σ̂=1.462 hσ=  3.4 time=113.3s
+Ep170 train=96.00% val=86.68% σ̂=1.627 hσ=  3.7 time=108.9s
+Ep171 train=96.02% val=86.32% σ̂=1.654 hσ=  3.8 time=109.7s
+Ep172 train=96.23% val=86.80% σ̂=1.678 hσ=  3.9 time=108.5s
+Ep173 train=96.32% val=86.14% σ̂=1.885 hσ=  4.3 time=116.7s
+Ep174 train=96.43% val=86.84% σ̂=1.590 hσ=  3.7 time=108.8s
+Ep175 train=96.31% val=86.43% σ̂=1.757 hσ=  4.0 time=117.3s
+Ep176 train=96.37% val=86.41% σ̂=1.702 hσ=  3.9 time=106.3s
+Ep177 train=96.42% val=86.70% σ̂=1.666 hσ=  3.8 time=114.2s
+Ep178 train=96.45% val=86.57% σ̂=1.488 hσ=  3.4 time=104.3s
+Ep179 train=96.53% val=86.43% σ̂=1.846 hσ=  4.2 time=117.7s
+Ep180 train=96.62% val=86.57% σ̂=1.782 hσ=  4.1 time=105.0s
+Ep181 train=96.63% val=86.51% σ̂=1.703 hσ=  3.9 time=112.5s
+Ep182 train=96.44% val=86.22% σ̂=1.542 hσ=  3.5 time=102.8s
+Ep183 train=96.50% val=86.49% σ̂=1.730 hσ=  4.0 time=107.2s
+Ep184 train=96.53% val=86.85% σ̂=1.703 hσ=  3.9 time=104.0s
+Ep185 train=96.67% val=86.39% σ̂=1.858 hσ=  4.3 time=107.5s
+Ep186 train=96.66% val=86.54% σ̂=1.688 hσ=  3.9 time=103.7s
+Ep187 train=96.67% val=86.53% σ̂=1.727 hσ=  4.0 time=106.6s
+Ep188 train=96.60% val=86.45% σ̂=1.653 hσ=  3.8 time=106.1s
+Ep189 train=96.59% val=86.83% σ̂=1.599 hσ=  3.7 time=109.3s
+Ep190 train=96.75% val=86.67% σ̂=1.652 hσ=  3.8 time=102.5s
+Ep191 train=96.71% val=86.88% σ̂=1.678 hσ=  3.9 time=107.3s
+Ep192 train=96.79% val=86.41% σ̂=1.612 hσ=  3.7 time=106.1s
+Ep193 train=96.77% val=86.44% σ̂=1.634 hσ=  3.8 time=105.9s
+Ep194 train=96.70% val=86.88% σ̂=1.381 hσ=  3.2 time=106.6s
+Ep195 train=96.78% val=86.74% σ̂=1.747 hσ=  4.0 time=107.6s
+Ep196 train=96.76% val=86.24% σ̂=1.958 hσ=  4.5 time=104.7s
+Ep197 train=96.73% val=86.43% σ̂=1.787 hσ=  4.1 time=105.4s
+Ep198 train=96.93% val=86.59% σ̂=1.665 hσ=  3.8 time=109.3s
+Ep199 train=96.70% val=86.59% σ̂=1.595 hσ=  3.7 time=103.4s
+Total time: 481.4 min
+Trainable parameters: 104,025
+Ep000 train=48.08% val=48.09% σ̂=1.017 hσ= 20.3 time=286.5s
+Ep001 train=58.86% val=58.14% σ̂=1.224 hσ= 24.5 time=414.1s
+Ep002 train=56.47% val=55.61% σ̂=1.206 hσ= 24.1 time=427.8s
+Ep003 train=63.16% val=61.69% σ̂=1.140 hσ= 22.8 time=470.8s
+Ep004 train=64.01% val=63.00% σ̂=1.043 hσ= 20.9 time=431.0s
+Ep005 train=64.15% val=62.59% σ̂=1.125 hσ= 22.5 time=404.7s
+Ep006 train=70.68% val=68.78% σ̂=1.605 hσ= 32.1 time=372.2s
+Ep007 train=68.12% val=66.87% σ̂=2.149 hσ= 43.0 time=213.4s
+Ep008 train=72.24% val=70.46% σ̂=1.984 hσ= 39.7 time=207.0s
+Ep009 train=71.23% val=70.43% σ̂=1.914 hσ= 38.3 time=203.1s
+Ep010 train=71.40% val=69.84% σ̂=2.283 hσ= 45.7 time=208.1s
+Ep011 train=73.28% val=71.75% σ̂=1.718 hσ= 34.4 time=211.2s
+Ep012 train=73.05% val=71.56% σ̂=2.152 hσ= 43.0 time=210.8s
+Ep013 train=75.19% val=73.32% σ̂=2.777 hσ= 55.5 time=214.9s
+Ep014 train=73.17% val=71.06% σ̂=3.435 hσ= 68.7 time=220.4s
+Ep015 train=76.11% val=73.83% σ̂=4.343 hσ= 86.9 time=218.7s
+Ep016 train=76.57% val=74.85% σ̂=3.363 hσ= 67.3 time=221.1s
+Ep017 train=76.28% val=74.37% σ̂=3.301 hσ= 66.0 time=217.4s
+Ep018 train=76.74% val=74.45% σ̂=3.152 hσ= 63.0 time=218.8s
+Ep019 train=75.15% val=73.30% σ̂=4.606 hσ= 92.1 time=214.8s
+Ep020 train=76.18% val=73.70% σ̂=3.935 hσ= 78.7 time=215.9s
+Ep021 train=78.04% val=76.13% σ̂=3.516 hσ= 70.3 time=216.9s
+Ep022 train=77.74% val=75.96% σ̂=4.706 hσ= 94.1 time=222.7s
+Ep023 train=76.65% val=74.19% σ̂=4.489 hσ= 89.8 time=277.3s
+Ep024 train=77.82% val=76.49% σ̂=4.683 hσ= 93.7 time=323.0s
+Ep025 train=78.43% val=76.24% σ̂=4.080 hσ= 81.6 time=360.3s
+Ep026 train=77.52% val=74.96% σ̂=5.355 hσ=107.1 time=399.1s
+Ep027 train=79.07% val=76.40% σ̂=4.058 hσ= 81.2 time=432.0s
+Ep028 train=78.34% val=76.75% σ̂=4.573 hσ= 91.5 time=460.6s
+Ep029 train=80.72% val=78.36% σ̂=4.916 hσ= 98.3 time=495.9s
+Ep030 train=80.83% val=78.64% σ̂=4.751 hσ= 95.0 time=510.5s
+Ep031 train=80.57% val=77.81% σ̂=5.469 hσ=109.4 time=506.0s
+Ep032 train=80.64% val=78.49% σ̂=5.743 hσ=114.9 time=506.0s
+Ep033 train=78.76% val=76.31% σ̂=5.572 hσ=111.4 time=501.5s
+Ep034 train=81.82% val=79.34% σ̂=6.346 hσ=126.9 time=494.4s
+Ep035 train=81.75% val=79.37% σ̂=5.815 hσ=116.3 time=518.2s
+Ep036 train=82.62% val=79.79% σ̂=5.667 hσ=113.3 time=519.0s
+Ep037 train=82.01% val=79.29% σ̂=5.645 hσ=112.9 time=518.8s
+Ep038 train=82.71% val=79.59% σ̂=5.338 hσ=106.8 time=534.8s
+Ep039 train=80.44% val=77.61% σ̂=6.400 hσ=128.0 time=544.4s
+Ep040 train=82.05% val=79.36% σ̂=5.946 hσ=118.9 time=560.4s
+Ep041 train=84.18% val=81.49% σ̂=5.169 hσ=103.4 time=390.7s
+Ep042 train=82.39% val=79.47% σ̂=5.469 hσ=109.4 time=350.5s
+Ep043 train=82.40% val=79.65% σ̂=6.042 hσ=120.8 time=357.3s
+Ep044 train=83.60% val=80.69% σ̂=5.916 hσ=118.3 time=366.6s
+Ep045 train=83.65% val=79.96% σ̂=6.287 hσ=125.7 time=361.6s
+Ep046 train=84.35% val=81.05% σ̂=5.495 hσ=109.9 time=371.8s
+Ep047 train=83.67% val=80.52% σ̂=6.091 hσ=121.8 time=360.8s
+Ep048 train=83.29% val=80.38% σ̂=5.904 hσ=118.1 time=356.8s
+Ep049 train=84.42% val=81.39% σ̂=5.469 hσ=109.4 time=341.3s
+Ep050 train=84.05% val=81.13% σ̂=5.428 hσ=108.6 time=303.5s
+Ep051 train=85.57% val=82.00% σ̂=5.034 hσ=100.7 time=278.0s
+Ep052 train=82.97% val=79.86% σ̂=5.842 hσ=116.8 time=275.1s
+Ep053 train=85.31% val=81.80% σ̂=6.597 hσ=131.9 time=273.9s
+Ep054 train=85.16% val=81.69% σ̂=5.629 hσ=112.6 time=265.7s
+Ep055 train=82.46% val=79.04% σ̂=5.619 hσ=112.4 time=264.4s
+Ep056 train=84.62% val=81.42% σ̂=4.351 hσ= 87.0 time=258.3s
+Ep057 train=83.09% val=79.76% σ̂=5.411 hσ=108.2 time=260.1s
+Ep058 train=84.17% val=80.92% σ̂=5.045 hσ=100.9 time=264.2s
+Ep059 train=85.49% val=82.09% σ̂=5.421 hσ=108.4 time=266.0s
+Ep060 train=84.45% val=80.41% σ̂=6.298 hσ=126.0 time=263.6s
+Ep061 train=85.54% val=82.22% σ̂=7.009 hσ=140.2 time=262.7s
+Ep062 train=84.43% val=80.71% σ̂=5.577 hσ=111.5 time=264.8s
+Ep063 train=85.87% val=81.79% σ̂=5.118 hσ=102.4 time=265.2s
+Ep064 train=85.41% val=81.32% σ̂=5.034 hσ=100.7 time=260.4s
+Ep065 train=85.47% val=81.16% σ̂=5.131 hσ=102.6 time=245.4s
+Ep066 train=84.48% val=80.53% σ̂=5.061 hσ=101.2 time=236.1s
+Ep067 train=85.21% val=81.24% σ̂=5.602 hσ=112.0 time=234.9s
+Ep068 train=86.09% val=81.66% σ̂=5.867 hσ=117.3 time=229.0s
+Ep069 train=86.23% val=82.19% σ̂=5.652 hσ=113.0 time=225.8s
+Ep070 train=84.43% val=80.76% σ̂=5.793 hσ=115.9 time=230.2s
+Ep071 train=87.24% val=82.65% σ̂=5.445 hσ=108.9 time=227.7s
+Ep072 train=87.21% val=83.64% σ̂=5.500 hσ=110.0 time=225.6s
+Ep073 train=87.44% val=83.52% σ̂=5.253 hσ=105.1 time=217.9s
+Ep074 train=87.57% val=83.06% σ̂=5.828 hσ=116.6 time=221.9s
+Ep075 train=87.08% val=82.86% σ̂=5.728 hσ=114.6 time=219.1s
+Ep076 train=87.30% val=82.39% σ̂=6.372 hσ=127.4 time=223.6s
+Ep077 train=87.84% val=82.99% σ̂=7.176 hσ=143.5 time=219.9s
+Ep078 train=87.34% val=82.96% σ̂=5.966 hσ=119.3 time=225.6s
+Ep079 train=86.89% val=82.73% σ̂=6.457 hσ=129.1 time=225.8s
+Ep080 train=87.38% val=83.22% σ̂=5.694 hσ=113.9 time=228.1s
+Ep081 train=87.86% val=83.15% σ̂=5.468 hσ=109.4 time=233.3s
+Ep082 train=87.80% val=83.29% σ̂=5.842 hσ=116.8 time=229.5s
+Ep083 train=88.73% val=83.72% σ̂=5.361 hσ=107.2 time=229.8s
+Ep084 train=88.24% val=83.37% σ̂=5.014 hσ=100.3 time=232.0s
+Ep085 train=88.53% val=83.55% σ̂=5.766 hσ=115.3 time=229.6s
+Ep086 train=87.37% val=82.58% σ̂=6.831 hσ=136.6 time=231.3s
+Ep087 train=87.59% val=82.62% σ̂=5.172 hσ=103.4 time=225.2s
+Ep088 train=88.50% val=83.67% σ̂=5.611 hσ=112.2 time=217.2s
+Ep089 train=88.88% val=84.06% σ̂=5.059 hσ=101.2 time=220.3s
+Ep090 train=87.93% val=82.97% σ̂=6.001 hσ=120.0 time=220.9s
+Ep091 train=88.67% val=83.30% σ̂=5.108 hσ=102.2 time=221.6s
+Ep092 train=89.21% val=83.89% σ̂=5.187 hσ=103.7 time=220.9s
+Ep093 train=88.74% val=83.57% σ̂=6.068 hσ=121.4 time=221.7s
+Ep094 train=89.05% val=83.57% σ̂=5.143 hσ=102.9 time=218.6s
+Ep095 train=88.18% val=83.01% σ̂=4.987 hσ= 99.7 time=224.8s
+Ep096 train=89.53% val=84.06% σ̂=6.229 hσ=124.6 time=117.1s
+Ep097 train=89.63% val=84.11% σ̂=5.448 hσ=109.0 time= 99.5s
+Ep098 train=90.43% val=84.84% σ̂=5.319 hσ=106.4 time= 97.3s
+Ep099 train=89.91% val=84.12% σ̂=5.522 hσ=110.4 time= 98.5s
+Ep100 train=90.44% val=84.78% σ̂=5.433 hσ=108.7 time= 98.9s
+Ep101 train=90.12% val=84.25% σ̂=5.713 hσ=114.3 time= 99.0s
+Ep102 train=90.60% val=84.45% σ̂=5.330 hσ=106.6 time= 96.2s
+Ep103 train=90.26% val=84.58% σ̂=5.501 hσ=110.0 time= 97.4s
+Ep104 train=89.80% val=84.21% σ̂=5.735 hσ=114.7 time= 97.7s
+Ep105 train=89.02% val=83.44% σ̂=5.048 hσ=101.0 time= 98.3s
+Ep106 train=90.89% val=85.02% σ̂=5.972 hσ=119.4 time= 97.9s
+Ep107 train=90.51% val=84.66% σ̂=5.087 hσ=101.7 time= 99.0s
+Ep108 train=91.11% val=84.98% σ̂=4.988 hσ= 99.8 time= 97.0s
+Ep109 train=90.17% val=84.23% σ̂=5.733 hσ=114.7 time= 98.6s
+Ep110 train=91.28% val=85.13% σ̂=5.186 hσ=103.7 time= 99.2s
+Ep111 train=90.33% val=84.36% σ̂=5.919 hσ=118.4 time= 97.4s
+Ep112 train=90.92% val=84.78% σ̂=4.742 hσ= 94.8 time= 96.4s
+Ep113 train=90.18% val=83.76% σ̂=5.371 hσ=107.4 time= 98.4s
+Ep114 train=91.32% val=85.14% σ̂=4.771 hσ= 95.4 time= 97.2s
+Ep115 train=91.37% val=84.65% σ̂=5.251 hσ=105.0 time= 97.2s
+Ep116 train=91.83% val=85.28% σ̂=5.420 hσ=108.4 time= 98.2s
+Ep117 train=91.20% val=84.53% σ̂=5.766 hσ=115.3 time= 98.3s
+Ep118 train=91.97% val=84.68% σ̂=5.145 hσ=102.9 time= 97.3s
+Ep119 train=91.71% val=85.04% σ̂=5.058 hσ=101.2 time= 98.4s
+Ep120 train=92.40% val=85.59% σ̂=5.163 hσ=103.3 time= 99.2s
+Ep121 train=92.33% val=85.14% σ̂=5.115 hσ=102.3 time= 97.4s
+Ep122 train=91.72% val=84.80% σ̂=5.170 hσ=103.4 time= 98.0s
+Ep123 train=91.86% val=85.47% σ̂=5.209 hσ=104.2 time= 97.1s
+Ep124 train=92.42% val=85.02% σ̂=4.863 hσ= 97.3 time= 99.8s
+Ep125 train=92.81% val=85.48% σ̂=4.747 hσ= 94.9 time= 98.9s
+Ep126 train=92.92% val=85.50% σ̂=4.935 hσ= 98.7 time= 97.6s
+Ep127 train=92.77% val=85.50% σ̂=5.400 hσ=108.0 time=101.0s
+Ep128 train=93.15% val=85.76% σ̂=5.543 hσ=110.9 time=101.6s
+Ep129 train=92.29% val=85.07% σ̂=4.523 hσ= 90.5 time=102.2s
+Ep130 train=93.08% val=85.65% σ̂=4.588 hσ= 91.8 time= 99.6s
+Ep131 train=93.37% val=85.93% σ̂=4.766 hσ= 95.3 time=101.2s
+Ep132 train=93.01% val=85.30% σ̂=4.842 hσ= 96.8 time=104.0s
+Ep133 train=92.99% val=85.61% σ̂=5.726 hσ=114.5 time=102.3s
+Ep134 train=93.46% val=86.00% σ̂=4.913 hσ= 98.3 time=102.4s
+Ep135 train=93.85% val=86.12% σ̂=4.845 hσ= 96.9 time=104.1s
+Ep136 train=92.86% val=85.31% σ̂=4.930 hσ= 98.6 time=101.5s
+Ep137 train=93.64% val=86.11% σ̂=5.144 hσ=102.9 time=103.2s
+Ep138 train=93.80% val=85.90% σ̂=4.774 hσ= 95.5 time=102.6s
+Ep139 train=93.81% val=85.71% σ̂=4.956 hσ= 99.1 time=104.1s
+Ep140 train=94.32% val=86.08% σ̂=4.994 hσ= 99.9 time=104.0s
+Ep141 train=94.07% val=86.05% σ̂=4.599 hσ= 92.0 time=104.6s
+Ep142 train=93.76% val=85.79% σ̂=4.695 hσ= 93.9 time=105.0s
+Ep143 train=93.91% val=86.10% σ̂=5.241 hσ=104.8 time=106.8s
+Ep144 train=94.31% val=85.89% σ̂=4.685 hσ= 93.7 time=104.7s
+Ep145 train=94.62% val=85.36% σ̂=4.944 hσ= 98.9 time=106.0s
+Ep146 train=94.52% val=86.56% σ̂=4.466 hσ= 89.3 time=105.0s
+Ep147 train=94.62% val=86.10% σ̂=4.684 hσ= 93.7 time=106.1s
+Ep148 train=94.75% val=86.03% σ̂=5.280 hσ=105.6 time=105.2s
+Ep149 train=94.53% val=86.01% σ̂=5.147 hσ=102.9 time=104.8s
+Ep150 train=94.89% val=86.33% σ̂=5.337 hσ=106.7 time=106.4s
+Ep151 train=95.04% val=86.15% σ̂=4.798 hσ= 96.0 time=104.3s
+Ep152 train=94.96% val=86.66% σ̂=4.847 hσ= 96.9 time=106.9s
+Ep153 train=94.90% val=85.97% σ̂=4.484 hσ= 89.7 time=107.1s
+Ep154 train=95.16% val=86.29% σ̂=4.957 hσ= 99.1 time=104.7s
+Ep155 train=95.24% val=86.68% σ̂=5.076 hσ=101.5 time=107.6s
+Ep156 train=95.11% val=86.36% σ̂=4.291 hσ= 85.8 time=105.4s
+Ep157 train=95.65% val=86.01% σ̂=4.634 hσ= 92.7 time=106.2s
+Ep158 train=95.20% val=86.36% σ̂=5.297 hσ=105.9 time=106.6s
+Ep159 train=95.30% val=86.39% σ̂=4.736 hσ= 94.7 time=105.4s
+Ep160 train=95.62% val=86.18% σ̂=5.121 hσ=102.4 time=106.7s
+Ep161 train=95.74% val=86.26% σ̂=5.051 hσ=101.0 time=105.7s
+Ep162 train=95.86% val=86.25% σ̂=4.842 hσ= 96.8 time=107.3s
+Ep163 train=95.72% val=86.56% σ̂=4.981 hσ= 99.6 time=105.8s
+Ep164 train=96.01% val=86.50% σ̂=4.758 hσ= 95.2 time=108.9s
+Ep165 train=96.03% val=86.47% σ̂=4.375 hσ= 87.5 time=104.4s
+Ep166 train=95.69% val=86.22% σ̂=4.619 hσ= 92.4 time=100.5s
+Ep167 train=95.80% val=86.85% σ̂=5.639 hσ=112.8 time=100.3s
+Ep168 train=95.98% val=86.35% σ̂=5.082 hσ=101.6 time= 99.1s
+Ep169 train=96.04% val=86.52% σ̂=5.061 hσ=101.2 time= 97.8s
+Ep170 train=96.36% val=86.54% σ̂=4.923 hσ= 98.5 time= 99.0s
+Ep171 train=96.01% val=86.58% σ̂=4.462 hσ= 89.2 time=100.2s
+Ep172 train=96.20% val=86.90% σ̂=4.510 hσ= 90.2 time= 96.9s
+Ep173 train=96.39% val=86.63% σ̂=4.983 hσ= 99.7 time= 97.3s
+Ep174 train=96.33% val=86.98% σ̂=4.861 hσ= 97.2 time= 98.3s
+Ep175 train=96.34% val=86.40% σ̂=4.417 hσ= 88.3 time= 96.9s
+Ep176 train=96.46% val=86.36% σ̂=4.695 hσ= 93.9 time= 97.9s
+Ep177 train=96.57% val=86.56% σ̂=4.703 hσ= 94.1 time= 97.1s
+Ep178 train=96.49% val=86.85% σ̂=4.775 hσ= 95.5 time= 89.6s
+Ep179 train=96.42% val=86.68% σ̂=4.753 hσ= 95.1 time= 79.6s
+Ep180 train=96.54% val=86.56% σ̂=4.534 hσ= 90.7 time= 78.8s
+Ep181 train=96.41% val=86.42% σ̂=4.405 hσ= 88.1 time= 78.2s
+Ep182 train=96.61% val=86.76% σ̂=4.982 hσ= 99.6 time= 77.9s
+Ep183 train=96.68% val=86.98% σ̂=4.909 hσ= 98.2 time= 77.1s
+Ep184 train=96.68% val=87.01% σ̂=4.755 hσ= 95.1 time= 76.5s
+Ep185 train=96.61% val=86.89% σ̂=4.592 hσ= 91.8 time= 76.6s
+Ep186 train=96.64% val=86.67% σ̂=4.358 hσ= 87.2 time= 76.7s
+Ep187 train=96.78% val=86.57% σ̂=4.840 hσ= 96.8 time= 76.2s
+Ep188 train=96.81% val=86.78% σ̂=4.910 hσ= 98.2 time= 76.2s
+Ep189 train=96.80% val=86.75% σ̂=4.300 hσ= 86.0 time= 76.1s
+Ep190 train=96.77% val=87.12% σ̂=4.036 hσ= 80.7 time= 76.2s
+Ep191 train=96.80% val=86.86% σ̂=4.564 hσ= 91.3 time= 76.2s
+Ep192 train=96.78% val=86.80% σ̂=4.783 hσ= 95.7 time= 75.9s
+Ep193 train=96.69% val=86.54% σ̂=4.764 hσ= 95.3 time= 76.2s
+Ep194 train=96.78% val=86.76% σ̂=5.218 hσ=104.4 time= 76.1s
+
