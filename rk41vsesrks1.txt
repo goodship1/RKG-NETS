@@ -1,0 +1,468 @@
+gavin@Nitro-AN515-58-df85a443:~$ python3 bx.py
+Trainable parameters: 19,616
+Ep000 train=37.67% val=38.43% σ̂=0.294 hσ=  1.5  mem=    18/   292 MB  time= 55.5s
+Ep001 train=46.64% val=46.87% σ̂=0.448 hσ=  2.2  mem=    18/   292 MB  time= 54.9s
+Ep002 train=51.03% val=50.88% σ̂=0.660 hσ=  3.3  mem=    18/   292 MB  time= 54.8s
+cEp003 train=53.14% val=53.13% σ̂=0.633 hσ=  3.2  mem=    18/   292 MB  time= 55.1s
+Ep004 train=56.61% val=55.84% σ̂=0.828 hσ=  4.1  mem=    18/   292 MB  time= 55.3s
+Ep005 train=58.76% val=58.10% σ̂=0.687 hσ=  3.4  mem=    18/   292 MB  time= 55.0s
+Ep006 train=59.60% val=59.34% σ̂=0.694 hσ=  3.5  mem=    18/   292 MB  time= 55.4s
+Ep007 train=58.90% val=57.87% σ̂=0.749 hσ=  3.7  mem=    18/   292 MB  time= 55.0s
+Ep008 train=62.17% val=61.50% σ̂=0.763 hσ=  3.8  mem=    18/   292 MB  time= 55.3s
+Ep009 train=60.03% val=60.19% σ̂=0.647 hσ=  3.2  mem=    18/   292 MB  time= 55.0s
+Ep010 train=62.63% val=61.99% σ̂=0.726 hσ=  3.6  mem=    18/   292 MB  time= 55.4s
+Ep011 train=63.06% val=62.11% σ̂=0.702 hσ=  3.5  mem=    18/   292 MB  time= 54.7s
+Ep012 train=61.73% val=60.46% σ̂=0.785 hσ=  3.9  mem=    18/   292 MB  time= 55.0s
+Ep013 train=63.53% val=62.92% σ̂=0.748 hσ=  3.7  mem=    18/   292 MB  time= 55.1s
+Ep014 train=65.05% val=64.09% σ̂=1.147 hσ=  5.7  mem=    18/   292 MB  time= 55.0s
+Ep015 train=65.50% val=64.09% σ̂=0.814 hσ=  4.1  mem=    18/   292 MB  time= 54.8s
+Ep016 train=66.23% val=65.57% σ̂=0.784 hσ=  3.9  mem=    18/   292 MB  time= 54.8s
+Ep017 train=65.01% val=63.82% σ̂=0.892 hσ=  4.5  mem=    18/   292 MB  time= 54.9s
+Ep018 train=65.60% val=65.09% σ̂=0.849 hσ=  4.2  mem=    18/   292 MB  time= 54.8s
+Ep019 train=66.70% val=66.35% σ̂=0.905 hσ=  4.5  mem=    18/   292 MB  time= 54.6s
+Ep020 train=68.08% val=66.55% σ̂=0.887 hσ=  4.4  mem=    18/   292 MB  time= 55.1s
+Ep021 train=69.30% val=68.22% σ̂=0.902 hσ=  4.5  mem=    18/   292 MB  time= 55.2s
+Ep022 train=67.97% val=67.12% σ̂=0.875 hσ=  4.4  mem=    18/   292 MB  time= 54.9s
+Ep023 train=68.22% val=67.89% σ̂=0.825 hσ=  4.1  mem=    18/   292 MB  time= 54.6s
+Ep024 train=68.66% val=67.82% σ̂=0.891 hσ=  4.5  mem=    18/   292 MB  time= 54.6s
+Ep025 train=68.75% val=67.22% σ̂=0.848 hσ=  4.2  mem=    18/   292 MB  time= 54.6s
+Ep026 train=68.69% val=67.44% σ̂=0.923 hσ=  4.6  mem=    18/   292 MB  time= 54.5s
+Ep027 train=69.94% val=69.12% σ̂=0.804 hσ=  4.0  mem=    18/   292 MB  time= 54.6s
+Ep028 train=70.63% val=69.33% σ̂=0.843 hσ=  4.2  mem=    18/   292 MB  time= 54.6s
+Ep029 train=69.07% val=67.93% σ̂=0.756 hσ=  3.8  mem=    18/   292 MB  time= 54.6s
+Ep030 train=71.03% val=70.08% σ̂=0.856 hσ=  4.3  mem=    18/   292 MB  time= 54.6s
+Ep031 train=69.90% val=68.19% σ̂=0.961 hσ=  4.8  mem=    18/   292 MB  time= 54.5s
+Ep032 train=69.19% val=67.55% σ̂=0.805 hσ=  4.0  mem=    18/   292 MB  time= 54.6s
+Ep033 train=70.86% val=69.43% σ̂=0.917 hσ=  4.6  mem=    18/   292 MB  time= 54.6s
+Ep034 train=71.55% val=70.31% σ̂=0.900 hσ=  4.5  mem=    18/   292 MB  time= 54.6s
+Ep035 train=71.15% val=70.32% σ̂=0.928 hσ=  4.6  mem=    18/   292 MB  time= 54.6s
+Ep036 train=71.24% val=69.60% σ̂=1.025 hσ=  5.1  mem=    18/   292 MB  time= 54.6s
+Ep037 train=71.45% val=70.68% σ̂=1.073 hσ=  5.4  mem=    18/   292 MB  time= 54.6s
+Ep038 train=71.61% val=70.63% σ̂=0.895 hσ=  4.5  mem=    18/   292 MB  time= 54.6s
+Ep039 train=71.74% val=70.64% σ̂=0.794 hσ=  4.0  mem=    18/   292 MB  time= 54.6s
+Ep040 train=71.55% val=70.05% σ̂=0.815 hσ=  4.1  mem=    18/   292 MB  time= 54.6s
+Ep041 train=69.10% val=68.43% σ̂=0.747 hσ=  3.7  mem=    18/   292 MB  time= 54.5s
+Ep042 train=71.66% val=70.70% σ̂=0.873 hσ=  4.4  mem=    18/   292 MB  time= 54.6s
+Ep043 train=71.69% val=70.12% σ̂=0.844 hσ=  4.2  mem=    18/   292 MB  time= 54.6s
+Ep044 train=70.97% val=69.08% σ̂=0.855 hσ=  4.3  mem=    18/   292 MB  time= 54.6s
+Ep045 train=72.78% val=71.26% σ̂=0.870 hσ=  4.4  mem=    18/   292 MB  time= 54.6s
+Ep046 train=72.58% val=71.85% σ̂=0.965 hσ=  4.8  mem=    18/   292 MB  time= 54.6s
+Ep047 train=73.56% val=72.34% σ̂=0.851 hσ=  4.3  mem=    18/   292 MB  time= 54.6s
+Ep048 train=74.38% val=72.48% σ̂=0.849 hσ=  4.2  mem=    18/   292 MB  time= 54.6s
+Ep049 train=73.95% val=72.26% σ̂=0.961 hσ=  4.8  mem=    18/   292 MB  time= 54.6s
+Ep050 train=73.97% val=71.89% σ̂=0.920 hσ=  4.6  mem=    18/   292 MB  time= 54.6s
+Ep051 train=73.53% val=71.98% σ̂=0.802 hσ=  4.0  mem=    18/   292 MB  time= 54.6s
+Ep052 train=74.24% val=72.90% σ̂=0.751 hσ=  3.8  mem=    18/   292 MB  time= 54.6s
+Ep053 train=72.84% val=72.22% σ̂=1.035 hσ=  5.2  mem=    18/   292 MB  time= 54.6s
+Ep054 train=74.24% val=73.15% σ̂=0.927 hσ=  4.6  mem=    18/   292 MB  time= 54.6s
+Ep055 train=74.88% val=73.22% σ̂=0.896 hσ=  4.5  mem=    18/   292 MB  time= 54.5s
+Ep056 train=73.74% val=72.83% σ̂=1.051 hσ=  5.3  mem=    18/   292 MB  time= 54.5s
+Ep057 train=74.75% val=73.22% σ̂=0.916 hσ=  4.6  mem=    18/   292 MB  time= 54.7s
+Ep058 train=73.01% val=71.57% σ̂=0.958 hσ=  4.8  mem=    18/   292 MB  time= 54.6s
+Ep059 train=73.88% val=72.79% σ̂=0.805 hσ=  4.0  mem=    18/   292 MB  time= 54.6s
+Ep060 train=73.12% val=71.56% σ̂=0.849 hσ=  4.2  mem=    18/   292 MB  time= 54.6s
+Ep061 train=74.69% val=73.19% σ̂=1.010 hσ=  5.1  mem=    18/   292 MB  time= 54.6s
+Ep062 train=74.60% val=73.38% σ̂=0.867 hσ=  4.3  mem=    18/   292 MB  time= 54.6s
+Ep063 train=75.10% val=73.51% σ̂=0.956 hσ=  4.8  mem=    18/   292 MB  time= 54.6s
+Ep064 train=75.37% val=73.89% σ̂=0.915 hσ=  4.6  mem=    18/   292 MB  time= 54.6s
+Ep065 train=75.82% val=74.04% σ̂=0.820 hσ=  4.1  mem=    18/   292 MB  time= 54.5s
+Ep066 train=75.60% val=73.94% σ̂=0.905 hσ=  4.5  mem=    18/   292 MB  time= 54.6s
+Ep067 train=74.54% val=72.61% σ̂=0.835 hσ=  4.2  mem=    18/   292 MB  time= 54.6s
+Ep068 train=74.52% val=72.77% σ̂=0.883 hσ=  4.4  mem=    18/   292 MB  time= 54.6s
+Ep069 train=75.21% val=73.14% σ̂=0.911 hσ=  4.6  mem=    18/   292 MB  time= 54.5s
+Ep070 train=75.94% val=74.01% σ̂=0.849 hσ=  4.2  mem=    18/   292 MB  time= 54.6s
+Ep071 train=75.76% val=73.50% σ̂=0.863 hσ=  4.3  mem=    18/   292 MB  time= 54.6s
+Ep072 train=75.62% val=73.94% σ̂=0.950 hσ=  4.7  mem=    18/   292 MB  time= 54.6s
+Ep073 train=76.59% val=74.79% σ̂=0.799 hσ=  4.0  mem=    18/   292 MB  time= 54.6s
+Ep074 train=75.51% val=74.49% σ̂=0.981 hσ=  4.9  mem=    18/   292 MB  time= 54.7s
+Ep075 train=76.44% val=75.15% σ̂=0.765 hσ=  3.8  mem=    18/   292 MB  time= 54.6s
+Ep076 train=76.02% val=74.20% σ̂=0.829 hσ=  4.1  mem=    18/   292 MB  time= 54.5s
+Ep077 train=76.91% val=75.14% σ̂=0.910 hσ=  4.6  mem=    18/   292 MB  time= 54.6s
+Ep078 train=76.35% val=74.73% σ̂=0.798 hσ=  4.0  mem=    18/   292 MB  time= 54.5s
+Ep079 train=76.27% val=74.54% σ̂=0.829 hσ=  4.1  mem=    18/   292 MB  time= 54.6s
+Ep080 train=76.59% val=75.16% σ̂=0.814 hσ=  4.1  mem=    18/   292 MB  time= 54.6s
+Ep081 train=77.06% val=75.25% σ̂=0.860 hσ=  4.3  mem=    18/   292 MB  time= 54.6s
+Ep082 train=75.62% val=73.64% σ̂=0.801 hσ=  4.0  mem=    18/   292 MB  time= 54.6s
+Ep083 train=76.32% val=74.05% σ̂=0.917 hσ=  4.6  mem=    18/   292 MB  time= 54.6s
+Ep084 train=76.80% val=74.78% σ̂=0.864 hσ=  4.3  mem=    18/   292 MB  time= 54.6s
+Ep085 train=76.36% val=74.32% σ̂=0.794 hσ=  4.0  mem=    18/   292 MB  time= 54.6s
+Ep086 train=77.43% val=75.75% σ̂=0.863 hσ=  4.3  mem=    18/   292 MB  time= 54.6s
+Ep087 train=76.47% val=74.26% σ̂=0.839 hσ=  4.2  mem=    18/   292 MB  time= 54.5s
+Ep088 train=76.49% val=74.61% σ̂=0.847 hσ=  4.2  mem=    18/   292 MB  time= 54.6s
+Ep089 train=76.65% val=74.31% σ̂=0.991 hσ=  5.0  mem=    18/   292 MB  time= 54.6s
+Ep090 train=77.61% val=75.83% σ̂=0.853 hσ=  4.3  mem=    18/   292 MB  time= 54.5s
+Ep091 train=77.37% val=75.86% σ̂=0.818 hσ=  4.1  mem=    18/   292 MB  time= 54.6s
+Ep092 train=77.22% val=75.22% σ̂=0.821 hσ=  4.1  mem=    18/   292 MB  time= 54.6s
+Ep093 train=77.73% val=75.43% σ̂=0.863 hσ=  4.3  mem=    18/   292 MB  time= 54.6s
+Ep094 train=76.01% val=74.01% σ̂=0.804 hσ=  4.0  mem=    18/   292 MB  time= 54.6s
+Ep095 train=77.74% val=75.20% σ̂=0.809 hσ=  4.0  mem=    18/   292 MB  time= 54.5s
+Ep096 train=78.82% val=76.32% σ̂=0.798 hσ=  4.0  mem=    18/   292 MB  time= 54.6s
+Ep097 train=77.13% val=75.53% σ̂=0.837 hσ=  4.2  mem=    18/   292 MB  time= 54.6s
+Ep098 train=78.06% val=76.08% σ̂=0.800 hσ=  4.0  mem=    18/   292 MB  time= 54.6s
+Ep099 train=78.73% val=76.45% σ̂=0.847 hσ=  4.2  mem=    18/   292 MB  time= 54.6s
+Ep100 train=78.81% val=76.91% σ̂=0.873 hσ=  4.4  mem=    18/   292 MB  time= 54.5s
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/usr/lib/python3.10/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/usr/lib/python3.10/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/usr/lib/python3.10/shutil.py", line 731, in rmtree
+    onerror(os.rmdir, path, sys.exc_info())
+  File "/usr/lib/python3.10/shutil.py", line 729, in rmtree
+    os.rmdir(path)
+OSError: [Errno 39] Directory not empty: '/tmp/pymp-8r8l3jqk'
+Ep101 train=77.06% val=75.16% σ̂=0.816 hσ=  4.1  mem=    18/   292 MB  time= 54.5s
+Ep102 train=78.11% val=75.68% σ̂=0.759 hσ=  3.8  mem=    18/   292 MB  time= 54.6s
+Ep103 train=77.96% val=75.71% σ̂=0.813 hσ=  4.1  mem=    18/   292 MB  time= 54.5s
+Ep104 train=78.53% val=75.88% σ̂=0.792 hσ=  4.0  mem=    18/   292 MB  time= 54.6s
+Ep105 train=79.25% val=76.35% σ̂=0.902 hσ=  4.5  mem=    18/   292 MB  time= 54.6s
+Ep106 train=77.67% val=76.18% σ̂=0.863 hσ=  4.3  mem=    18/   292 MB  time= 54.6s
+Ep107 train=79.71% val=76.68% σ̂=0.858 hσ=  4.3  mem=    18/   292 MB  time= 54.6s
+Ep108 train=77.80% val=75.23% σ̂=0.797 hσ=  4.0  mem=    18/   292 MB  time= 54.5s
+Ep109 train=79.02% val=77.20% σ̂=0.816 hσ=  4.1  mem=    18/   292 MB  time= 54.6s
+Ep110 train=79.45% val=77.14% σ̂=0.708 hσ=  3.5  mem=    18/   292 MB  time= 54.6s
+Ep111 train=78.62% val=76.21% σ̂=0.864 hσ=  4.3  mem=    18/   292 MB  time= 54.5s
+Ep112 train=78.08% val=75.86% σ̂=0.780 hσ=  3.9  mem=    18/   292 MB  time= 54.5s
+Ep113 train=79.42% val=76.35% σ̂=1.075 hσ=  5.4  mem=    18/   292 MB  time= 54.6s
+Ep114 train=78.96% val=76.38% σ̂=0.884 hσ=  4.4  mem=    18/   292 MB  time= 54.6s
+Ep115 train=79.51% val=77.25% σ̂=0.826 hσ=  4.1  mem=    18/   292 MB  time= 54.5s
+Ep116 train=79.27% val=77.28% σ̂=0.900 hσ=  4.5  mem=    18/   292 MB  time= 54.7s
+Ep117 train=78.76% val=76.15% σ̂=0.865 hσ=  4.3  mem=    18/   292 MB  time= 54.6s
+Ep118 train=79.11% val=77.06% σ̂=0.856 hσ=  4.3  mem=    18/   292 MB  time= 54.6s
+Ep119 train=79.55% val=76.56% σ̂=0.873 hσ=  4.4  mem=    18/   292 MB  time= 54.6s
+Ep120 train=79.78% val=77.65% σ̂=0.753 hσ=  3.8  mem=    18/   292 MB  time= 54.6s
+Ep121 train=79.62% val=77.29% σ̂=0.782 hσ=  3.9  mem=    18/   292 MB  time= 54.6s
+Ep122 train=79.87% val=77.58% σ̂=0.817 hσ=  4.1  mem=    18/   292 MB  time= 54.6s
+Ep123 train=80.31% val=77.66% σ̂=0.849 hσ=  4.2  mem=    18/   292 MB  time= 54.6s
+Ep124 train=79.97% val=77.65% σ̂=0.834 hσ=  4.2  mem=    18/   292 MB  time= 54.6s
+Ep125 train=80.31% val=77.63% σ̂=0.839 hσ=  4.2  mem=    18/   292 MB  time= 54.6s
+Ep126 train=80.53% val=78.02% σ̂=0.912 hσ=  4.6  mem=    18/   292 MB  time= 54.6s
+Ep127 train=79.96% val=77.26% σ̂=0.718 hσ=  3.6  mem=    18/   292 MB  time= 54.5s
+Ep128 train=80.85% val=77.88% σ̂=0.731 hσ=  3.7  mem=    18/   292 MB  time= 54.6s
+Ep129 train=80.56% val=78.16% σ̂=0.754 hσ=  3.8  mem=    18/   292 MB  time= 54.7s
+Ep130 train=80.08% val=77.35% σ̂=0.757 hσ=  3.8  mem=    18/   292 MB  time= 54.6s
+Ep131 train=80.89% val=78.32% σ̂=0.787 hσ=  3.9  mem=    18/   292 MB  time= 54.6s
+Ep132 train=81.15% val=78.30% σ̂=0.748 hσ=  3.7  mem=    18/   292 MB  time= 54.6s
+Ep133 train=81.21% val=78.44% σ̂=0.737 hσ=  3.7  mem=    18/   292 MB  time= 54.6s
+Ep134 train=80.33% val=77.44% σ̂=0.792 hσ=  4.0  mem=    18/   292 MB  time= 54.6s
+Ep135 train=81.11% val=78.34% σ̂=0.819 hσ=  4.1  mem=    18/   292 MB  time= 54.6s
+Ep136 train=81.15% val=78.67% σ̂=0.848 hσ=  4.2  mem=    18/   292 MB  time= 54.6s
+Ep137 train=81.45% val=78.57% σ̂=0.745 hσ=  3.7  mem=    18/   292 MB  time= 54.6s
+Ep138 train=80.69% val=77.59% σ̂=0.796 hσ=  4.0  mem=    18/   292 MB  time= 54.6s
+Ep139 train=80.95% val=77.91% σ̂=0.786 hσ=  3.9  mem=    18/   292 MB  time= 54.6s
+Ep140 train=81.25% val=78.51% σ̂=0.695 hσ=  3.5  mem=    18/   292 MB  time= 54.6s
+Ep141 train=81.19% val=78.18% σ̂=0.791 hσ=  4.0  mem=    18/   292 MB  time= 54.6s
+Ep142 train=81.11% val=78.05% σ̂=0.802 hσ=  4.0  mem=    18/   292 MB  time= 54.6s
+Ep143 train=81.60% val=78.69% σ̂=0.763 hσ=  3.8  mem=    18/   292 MB  time= 54.6s
+Ep144 train=81.27% val=78.57% σ̂=0.783 hσ=  3.9  mem=    18/   292 MB  time= 54.6s
+Ep145 train=81.73% val=78.73% σ̂=0.742 hσ=  3.7  mem=    18/   292 MB  time= 54.5s
+Ep146 train=81.48% val=78.82% σ̂=0.805 hσ=  4.0  mem=    18/   292 MB  time= 54.6s
+Ep147 train=81.61% val=78.69% σ̂=0.816 hσ=  4.1  mem=    18/   292 MB  time= 54.6s
+Ep148 train=82.05% val=78.92% σ̂=0.716 hσ=  3.6  mem=    18/   292 MB  time= 54.6s
+Ep149 train=82.02% val=78.55% σ̂=0.761 hσ=  3.8  mem=    18/   292 MB  time= 54.6s
+Ep150 train=81.88% val=78.53% σ̂=0.793 hσ=  4.0  mem=    18/   292 MB  time= 54.6s
+Ep151 train=81.55% val=78.59% σ̂=0.716 hσ=  3.6  mem=    18/   292 MB  time= 54.6s
+Ep152 train=81.83% val=78.85% σ̂=0.732 hσ=  3.7  mem=    18/   292 MB  time= 54.7s
+Ep153 train=82.08% val=78.48% σ̂=0.749 hσ=  3.7  mem=    18/   292 MB  time= 54.6s
+Ep154 train=82.07% val=78.81% σ̂=0.773 hσ=  3.9  mem=    18/   292 MB  time= 54.6s
+Ep155 train=82.29% val=79.20% σ̂=0.762 hσ=  3.8  mem=    18/   292 MB  time= 54.6s
+Ep156 train=82.27% val=79.14% σ̂=0.754 hσ=  3.8  mem=    18/   292 MB  time= 54.6s
+Ep157 train=82.14% val=78.84% σ̂=0.857 hσ=  4.3  mem=    18/   292 MB  time= 54.6s
+Ep158 train=82.25% val=78.80% σ̂=0.870 hσ=  4.4  mem=    18/   292 MB  time= 54.6s
+Ep159 train=82.24% val=78.98% σ̂=0.805 hσ=  4.0  mem=    18/   292 MB  time= 54.6s
+Ep160 train=82.06% val=78.81% σ̂=0.812 hσ=  4.1  mem=    18/   292 MB  time= 54.6s
+Ep161 train=82.40% val=78.90% σ̂=0.747 hσ=  3.7  mem=    18/   292 MB  time= 54.6s
+Ep162 train=82.61% val=79.56% σ̂=0.749 hσ=  3.7  mem=    18/   292 MB  time= 54.6s
+Ep163 train=82.26% val=78.91% σ̂=0.740 hσ=  3.7  mem=    18/   292 MB  time= 54.6s
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/usr/lib/python3.10/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/usr/lib/python3.10/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/usr/lib/python3.10/shutil.py", line 731, in rmtree
+    onerror(os.rmdir, path, sys.exc_info())
+  File "/usr/lib/python3.10/shutil.py", line 729, in rmtree
+    os.rmdir(path)
+OSError: [Errno 39] Directory not empty: '/tmp/pymp-tj2o67bo'
+Ep164 train=82.55% val=79.30% σ̂=0.794 hσ=  4.0  mem=    18/   292 MB  time= 54.6s
+Ep165 train=82.32% val=79.75% σ̂=0.760 hσ=  3.8  mem=    18/   292 MB  time= 54.6s
+Ep166 train=82.41% val=79.51% σ̂=0.825 hσ=  4.1  mem=    18/   292 MB  time= 54.6s
+Ep167 train=82.50% val=79.35% σ̂=0.822 hσ=  4.1  mem=    18/   292 MB  time= 54.6s
+Ep168 train=82.35% val=79.52% σ̂=0.715 hσ=  3.6  mem=    18/   292 MB  time= 54.6s
+Ep169 train=82.92% val=79.39% σ̂=0.732 hσ=  3.7  mem=    18/   292 MB  time= 54.6s
+Ep170 train=82.90% val=79.62% σ̂=0.765 hσ=  3.8  mem=    18/   292 MB  time= 54.6s
+Ep171 train=82.61% val=79.06% σ̂=0.689 hσ=  3.4  mem=    18/   292 MB  time= 54.6s
+Ep172 train=82.66% val=79.59% σ̂=0.795 hσ=  4.0  mem=    18/   292 MB  time= 54.6s
+Ep173 train=82.86% val=79.30% σ̂=0.761 hσ=  3.8  mem=    18/   292 MB  time= 54.6s
+Ep174 train=82.93% val=79.57% σ̂=0.748 hσ=  3.7  mem=    18/   292 MB  time= 54.6s
+Ep175 train=83.09% val=79.41% σ̂=0.792 hσ=  4.0  mem=    18/   292 MB  time= 54.6s
+Ep176 train=82.80% val=79.46% σ̂=0.825 hσ=  4.1  mem=    18/   292 MB  time= 54.6s
+Ep177 train=82.90% val=79.30% σ̂=0.699 hσ=  3.5  mem=    18/   292 MB  time= 54.6s
+Ep178 train=83.01% val=79.41% σ̂=0.761 hσ=  3.8  mem=    18/   292 MB  time= 54.6s
+Ep179 train=83.07% val=79.70% σ̂=0.695 hσ=  3.5  mem=    18/   292 MB  time= 54.6s
+Ep180 train=83.04% val=79.73% σ̂=0.706 hσ=  3.5  mem=    18/   292 MB  time= 54.6s
+Ep181 train=83.03% val=79.97% σ̂=0.806 hσ=  4.0  mem=    18/   292 MB  time= 54.6s
+Ep182 train=83.20% val=79.57% σ̂=0.737 hσ=  3.7  mem=    18/   292 MB  time= 54.6s
+Ep183 train=83.20% val=79.69% σ̂=0.793 hσ=  4.0  mem=    18/   292 MB  time= 54.6s
+Ep184 train=83.12% val=80.24% σ̂=0.777 hσ=  3.9  mem=    18/   292 MB  time= 54.6s
+Ep185 train=83.15% val=79.81% σ̂=0.796 hσ=  4.0  mem=    18/   292 MB  time= 54.6s
+Ep186 train=83.31% val=79.69% σ̂=0.785 hσ=  3.9  mem=    18/   292 MB  time= 54.6s
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/usr/lib/python3.10/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/usr/lib/python3.10/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/usr/lib/python3.10/shutil.py", line 731, in rmtree
+    onerror(os.rmdir, path, sys.exc_info())
+  File "/usr/lib/python3.10/shutil.py", line 729, in rmtree
+    os.rmdir(path)
+OSError: [Errno 39] Directory not empty: '/tmp/pymp-8zvdtufn'
+Ep187 train=83.12% val=79.57% σ̂=0.692 hσ=  3.5  mem=    18/   292 MB  time= 54.6s
+Ep188 train=83.17% val=79.47% σ̂=0.709 hσ=  3.5  mem=    18/   292 MB  time= 54.6s
+Ep189 train=83.30% val=79.48% σ̂=0.720 hσ=  3.6  mem=    18/   292 MB  time= 54.6s
+Ep190 train=83.30% val=80.40% σ̂=0.798 hσ=  4.0  mem=    18/   292 MB  time= 54.6s
+Ep191 train=83.34% val=80.07% σ̂=0.685 hσ=  3.4  mem=    18/   292 MB  time= 54.6s
+Ep192 train=83.21% val=79.24% σ̂=0.700 hσ=  3.5  mem=    18/   292 MB  time= 54.6s
+Ep193 train=83.44% val=80.05% σ̂=0.730 hσ=  3.7  mem=    18/   292 MB  time= 54.6s
+Ep194 train=83.25% val=79.94% σ̂=0.787 hσ=  3.9  mem=    18/   292 MB  time= 54.5s
+Ep195 train=83.06% val=79.24% σ̂=0.762 hσ=  3.8  mem=    18/   292 MB  time= 54.6s
+Ep196 train=83.04% val=79.99% σ̂=0.754 hσ=  3.8  mem=    18/   292 MB  time= 54.6s
+Ep197 train=83.32% val=79.83% σ̂=0.731 hσ=  3.7  mem=    18/   292 MB  time= 54.6s
+Ep198 train=83.15% val=79.18% σ̂=0.721 hσ=  3.6  mem=    18/   292 MB  time= 54.6s
+Ep199 train=83.17% val=80.17% σ̂=0.679 hσ=  3.4  mem=    18/   292 MB  time= 54.6s
+Total time: 182.1 min
+Traceback (most recent call last):
+  File "/home/gavin/bx.py", line 363, in <module>
+    train_loop(args)
+  File "/home/gavin/bx.py", line 313, in train_loop
+    if torchattacks is not None:
+NameError: name 'torchattacks' is not defined
+gavin@Nitro-AN515-58-df85a443:~$ python3 bx.py
+Trainable parameters: 19,616
+Ep000 train=36.60% val=37.30% σ̂=2.546 hσ=  2.5  mem=    18/   325 MB  time=118.0s
+Ep001 train=42.96% val=42.77% σ̂=2.611 hσ=  2.6  mem=    18/   325 MB  time=117.4s
+Ep002 train=47.78% val=47.24% σ̂=2.263 hσ=  2.3  mem=    18/   325 MB  time=117.5s
+Ep003 train=50.17% val=49.57% σ̂=2.719 hσ=  2.7  mem=    18/   325 MB  time=117.4s
+Ep004 train=52.40% val=52.16% σ̂=2.377 hσ=  2.4  mem=    18/   325 MB  time=117.4s
+Ep005 train=55.43% val=54.82% σ̂=2.427 hσ=  2.4  mem=    18/   325 MB  time=117.4s
+Ep006 train=56.31% val=55.44% σ̂=2.747 hσ=  2.7  mem=    18/   325 MB  time=117.4s
+Ep007 train=59.56% val=58.89% σ̂=2.246 hσ=  2.2  mem=    18/   325 MB  time=117.4s
+Ep008 train=60.51% val=59.78% σ̂=2.950 hσ=  2.9  mem=    18/   325 MB  time=117.4s
+Ep009 train=61.39% val=60.42% σ̂=2.504 hσ=  2.5  mem=    18/   325 MB  time=117.4s
+Ep010 train=60.68% val=59.48% σ̂=3.772 hσ=  3.8  mem=    18/   325 MB  time=117.5s
+Ep011 train=63.21% val=62.37% σ̂=3.521 hσ=  3.5  mem=    18/   325 MB  time=117.4s
+Ep012 train=62.79% val=61.72% σ̂=3.885 hσ=  3.9  mem=    18/   325 MB  time=117.4s
+Ep013 train=63.42% val=62.50% σ̂=3.682 hσ=  3.7  mem=    18/   325 MB  time=117.4s
+Ep014 train=64.50% val=63.13% σ̂=3.115 hσ=  3.1  mem=    18/   325 MB  time=117.4s
+Ep015 train=65.96% val=64.40% σ̂=4.075 hσ=  4.1  mem=    18/   325 MB  time=117.5s
+Ep016 train=65.15% val=64.25% σ̂=2.692 hσ=  2.7  mem=    18/   325 MB  time=117.4s
+Ep017 train=65.75% val=64.23% σ̂=2.842 hσ=  2.8  mem=    18/   325 MB  time=117.4s
+Ep018 train=65.87% val=64.94% σ̂=2.484 hσ=  2.5  mem=    18/   325 MB  time=117.4s
+Ep019 train=65.64% val=64.39% σ̂=3.379 hσ=  3.4  mem=    18/   325 MB  time=117.5s
+Ep020 train=68.13% val=66.60% σ̂=2.632 hσ=  2.6  mem=    18/   325 MB  time=117.5s
+Ep021 train=67.44% val=65.74% σ̂=3.473 hσ=  3.5  mem=    18/   325 MB  time=117.5s
+Ep022 train=66.95% val=65.67% σ̂=3.679 hσ=  3.7  mem=    18/   325 MB  time=117.4s
+Ep023 train=68.99% val=67.48% σ̂=2.575 hσ=  2.6  mem=    18/   325 MB  time=117.5s
+Ep024 train=68.59% val=66.48% σ̂=3.340 hσ=  3.3  mem=    18/   325 MB  time=117.4s
+Ep025 train=69.45% val=68.07% σ̂=4.565 hσ=  4.6  mem=    18/   325 MB  time=117.5s
+Ep026 train=68.98% val=67.48% σ̂=4.247 hσ=  4.2  mem=    18/   325 MB  time=117.4s
+Ep027 train=69.54% val=68.37% σ̂=3.832 hσ=  3.8  mem=    18/   325 MB  time=117.5s
+Ep028 train=69.56% val=68.00% σ̂=3.219 hσ=  3.2  mem=    18/   325 MB  time=117.4s
+Ep029 train=68.72% val=67.62% σ̂=3.980 hσ=  4.0  mem=    18/   325 MB  time=117.4s
+Ep030 train=70.51% val=68.83% σ̂=3.945 hσ=  3.9  mem=    18/   325 MB  time=117.5s
+Ep031 train=70.83% val=68.90% σ̂=3.067 hσ=  3.1  mem=    18/   325 MB  time=117.4s
+Ep032 train=70.82% val=69.20% σ̂=3.596 hσ=  3.6  mem=    18/   325 MB  time=117.4s
+Ep033 train=70.52% val=69.02% σ̂=3.442 hσ=  3.4  mem=    18/   325 MB  time=117.5s
+Ep034 train=71.81% val=69.76% σ̂=5.275 hσ=  5.3  mem=    18/   325 MB  time=117.4s
+Ep035 train=71.53% val=69.79% σ̂=4.710 hσ=  4.7  mem=    18/   325 MB  time=117.4s
+Ep036 train=71.84% val=69.77% σ̂=4.636 hσ=  4.6  mem=    18/   325 MB  time=117.4s
+Ep037 train=73.26% val=71.05% σ̂=4.309 hσ=  4.3  mem=    18/   325 MB  time=117.4s
+Ep038 train=72.31% val=70.63% σ̂=3.929 hσ=  3.9  mem=    18/   325 MB  time=117.4s
+Ep039 train=72.30% val=70.26% σ̂=5.468 hσ=  5.5  mem=    18/   325 MB  time=117.4s
+Ep040 train=72.71% val=71.17% σ̂=4.456 hσ=  4.5  mem=    18/   325 MB  time=117.5s
+Ep041 train=72.27% val=70.79% σ̂=3.133 hσ=  3.1  mem=    18/   325 MB  time=117.4s
+Ep042 train=73.77% val=71.80% σ̂=3.073 hσ=  3.1  mem=    18/   325 MB  time=117.4s
+Ep043 train=72.25% val=71.29% σ̂=4.349 hσ=  4.3  mem=    18/   325 MB  time=117.4s
+Ep044 train=73.24% val=71.20% σ̂=3.368 hσ=  3.4  mem=    18/   325 MB  time=117.4s
+Ep045 train=72.91% val=70.60% σ̂=4.460 hσ=  4.5  mem=    18/   325 MB  time=117.4s
+Ep046 train=74.32% val=72.67% σ̂=3.696 hσ=  3.7  mem=    18/   325 MB  time=117.5s
+Ep047 train=73.05% val=71.12% σ̂=4.084 hσ=  4.1  mem=    18/   325 MB  time=117.4s
+Ep048 train=74.54% val=72.39% σ̂=3.049 hσ=  3.0  mem=    18/   325 MB  time=117.4s
+Ep049 train=74.15% val=72.37% σ̂=3.346 hσ=  3.3  mem=    18/   325 MB  time=117.4s
+Ep050 train=73.75% val=71.78% σ̂=3.452 hσ=  3.5  mem=    18/   325 MB  time=117.5s
+Ep051 train=73.98% val=72.56% σ̂=5.533 hσ=  5.5  mem=    18/   325 MB  time=117.5s
+Ep052 train=75.32% val=73.75% σ̂=3.097 hσ=  3.1  mem=    18/   325 MB  time=117.4s
+Ep053 train=74.02% val=72.30% σ̂=2.852 hσ=  2.9  mem=    18/   325 MB  time=117.5s
+Ep054 train=74.95% val=73.10% σ̂=4.622 hσ=  4.6  mem=    18/   325 MB  time=117.4s
+Ep055 train=75.33% val=73.18% σ̂=4.221 hσ=  4.2  mem=    18/   325 MB  time=117.5s
+Ep056 train=73.94% val=72.35% σ̂=3.246 hσ=  3.2  mem=    18/   325 MB  time=117.5s
+Ep057 train=74.70% val=73.41% σ̂=4.092 hσ=  4.1  mem=    18/   325 MB  time=117.5s
+Ep058 train=75.38% val=73.78% σ̂=4.003 hσ=  4.0  mem=    18/   325 MB  time=117.4s
+Ep059 train=75.76% val=73.78% σ̂=4.486 hσ=  4.5  mem=    18/   325 MB  time=117.5s
+Ep060 train=74.72% val=73.22% σ̂=2.993 hσ=  3.0  mem=    18/   325 MB  time=117.5s
+Ep061 train=76.65% val=74.59% σ̂=3.352 hσ=  3.4  mem=    18/   325 MB  time=117.5s
+Ep062 train=75.96% val=74.49% σ̂=3.166 hσ=  3.2  mem=    18/   325 MB  time=117.5s
+Ep063 train=75.66% val=73.62% σ̂=3.342 hσ=  3.3  mem=    18/   325 MB  time=117.4s
+Ep064 train=75.98% val=74.13% σ̂=3.465 hσ=  3.5  mem=    18/   325 MB  time=117.5s
+Ep065 train=75.69% val=74.32% σ̂=3.506 hσ=  3.5  mem=    18/   325 MB  time=117.5s
+Ep066 train=76.78% val=74.96% σ̂=3.602 hσ=  3.6  mem=    18/   325 MB  time=117.4s
+Ep067 train=75.82% val=74.34% σ̂=3.638 hσ=  3.6  mem=    18/   325 MB  time=117.4s
+Ep068 train=75.66% val=74.00% σ̂=3.788 hσ=  3.8  mem=    18/   325 MB  time=117.4s
+Ep069 train=75.92% val=73.66% σ̂=3.284 hσ=  3.3  mem=    18/   325 MB  time=117.5s
+Ep070 train=76.71% val=74.85% σ̂=4.423 hσ=  4.4  mem=    18/   325 MB  time=117.5s
+Ep071 train=76.33% val=74.11% σ̂=3.160 hσ=  3.2  mem=    18/   325 MB  time=117.4s
+Ep072 train=76.96% val=75.36% σ̂=3.086 hσ=  3.1  mem=    18/   325 MB  time=117.5s
+Ep073 train=77.52% val=74.68% σ̂=2.995 hσ=  3.0  mem=    18/   325 MB  time=117.4s
+Ep074 train=75.92% val=74.13% σ̂=3.262 hσ=  3.3  mem=    18/   325 MB  time=117.5s
+Ep075 train=77.16% val=74.97% σ̂=2.963 hσ=  3.0  mem=    18/   325 MB  time=117.4s
+Ep076 train=75.92% val=74.52% σ̂=3.697 hσ=  3.7  mem=    18/   325 MB  time=117.5s
+Ep077 train=77.84% val=75.27% σ̂=3.020 hσ=  3.0  mem=    18/   325 MB  time=117.4s
+Ep078 train=77.20% val=75.25% σ̂=3.296 hσ=  3.3  mem=    18/   325 MB  time=117.4s
+Ep079 train=77.54% val=75.08% σ̂=4.021 hσ=  4.0  mem=    18/   325 MB  time=117.4s
+Ep080 train=77.47% val=75.46% σ̂=3.495 hσ=  3.5  mem=    18/   325 MB  time=117.4s
+Ep081 train=77.90% val=76.04% σ̂=3.237 hσ=  3.2  mem=    18/   325 MB  time=117.5s
+Ep082 train=76.45% val=74.54% σ̂=4.043 hσ=  4.0  mem=    18/   325 MB  time=117.5s
+Ep083 train=77.06% val=74.72% σ̂=3.611 hσ=  3.6  mem=    18/   325 MB  time=117.4s
+Ep084 train=77.34% val=74.85% σ̂=3.796 hσ=  3.8  mem=    18/   325 MB  time=117.4s
+Ep085 train=77.99% val=75.70% σ̂=3.534 hσ=  3.5  mem=    18/   325 MB  time=117.4s
+Ep086 train=77.81% val=74.86% σ̂=4.030 hσ=  4.0  mem=    18/   325 MB  time=117.4s
+Ep087 train=77.60% val=75.37% σ̂=3.222 hσ=  3.2  mem=    18/   325 MB  time=117.4s
+Ep088 train=78.28% val=76.19% σ̂=3.682 hσ=  3.7  mem=    18/   325 MB  time=117.4s
+Ep089 train=77.75% val=75.61% σ̂=3.409 hσ=  3.4  mem=    18/   325 MB  time=117.4s
+Ep090 train=78.42% val=76.34% σ̂=3.953 hσ=  4.0  mem=    18/   325 MB  time=117.4s
+Ep091 train=78.36% val=75.77% σ̂=4.229 hσ=  4.2  mem=    18/   325 MB  time=117.4s
+Ep092 train=78.43% val=75.97% σ̂=3.304 hσ=  3.3  mem=    18/   325 MB  time=117.4s
+Ep093 train=77.93% val=75.24% σ̂=3.553 hσ=  3.6  mem=    18/   325 MB  time=117.4s
+Ep094 train=77.54% val=74.91% σ̂=3.524 hσ=  3.5  mem=    18/   325 MB  time=117.4s
+Ep095 train=77.63% val=75.27% σ̂=3.604 hσ=  3.6  mem=    18/   325 MB  time=117.3s
+Ep096 train=78.57% val=76.01% σ̂=3.241 hσ=  3.2  mem=    18/   325 MB  time=117.4s
+Ep097 train=78.19% val=76.37% σ̂=3.270 hσ=  3.3  mem=    18/   325 MB  time=117.4s
+Ep098 train=78.62% val=76.25% σ̂=2.861 hσ=  2.9  mem=    18/   325 MB  time=117.4s
+Ep099 train=78.77% val=76.48% σ̂=3.467 hσ=  3.5  mem=    18/   325 MB  time=117.4s
+Ep100 train=78.84% val=76.28% σ̂=3.088 hσ=  3.1  mem=    18/   325 MB  time=117.4s
+Ep101 train=78.84% val=76.51% σ̂=3.323 hσ=  3.3  mem=    18/   325 MB  time=117.4s
+Ep102 train=78.35% val=76.17% σ̂=3.324 hσ=  3.3  mem=    18/   325 MB  time=117.3s
+Ep103 train=78.26% val=75.60% σ̂=3.579 hσ=  3.6  mem=    18/   325 MB  time=117.4s
+Ep104 train=78.83% val=76.18% σ̂=3.768 hσ=  3.8  mem=    18/   325 MB  time=117.4s
+Ep105 train=79.40% val=77.34% σ̂=3.292 hσ=  3.3  mem=    18/   325 MB  time=117.4s
+Ep106 train=79.26% val=76.91% σ̂=4.564 hσ=  4.6  mem=    18/   325 MB  time=117.4s
+Ep107 train=78.97% val=76.17% σ̂=4.185 hσ=  4.2  mem=    18/   325 MB  time=117.4s
+Ep108 train=78.47% val=76.67% σ̂=3.176 hσ=  3.2  mem=    18/   325 MB  time=117.4s
+Ep109 train=79.57% val=76.80% σ̂=2.998 hσ=  3.0  mem=    18/   325 MB  time=117.4s
+Ep110 train=79.33% val=77.29% σ̂=3.250 hσ=  3.3  mem=    18/   325 MB  time=117.4s
+Ep111 train=79.28% val=76.67% σ̂=3.986 hσ=  4.0  mem=    18/   325 MB  time=117.4s
+Ep112 train=79.14% val=76.95% σ̂=4.236 hσ=  4.2  mem=    18/   325 MB  time=117.4s
+Ep113 train=79.62% val=77.35% σ̂=3.622 hσ=  3.6  mem=    18/   325 MB  time=117.3s
+Ep114 train=79.37% val=76.39% σ̂=3.205 hσ=  3.2  mem=    18/   325 MB  time=117.4s
+Ep115 train=79.68% val=77.33% σ̂=3.619 hσ=  3.6  mem=    18/   325 MB  time=117.4s
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/usr/lib/python3.10/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/usr/lib/python3.10/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/usr/lib/python3.10/shutil.py", line 731, in rmtree
+    onerror(os.rmdir, path, sys.exc_info())
+  File "/usr/lib/python3.10/shutil.py", line 729, in rmtree
+    os.rmdir(path)
+OSError: [Errno 39] Directory not empty: '/tmp/pymp-da2fltfd'
+Ep116 train=79.12% val=76.67% σ̂=3.968 hσ=  4.0  mem=    18/   325 MB  time=117.3s
+Ep117 train=79.43% val=77.07% σ̂=3.528 hσ=  3.5  mem=    18/   325 MB  time=117.3s
+Ep118 train=79.41% val=77.17% σ̂=4.202 hσ=  4.2  mem=    18/   325 MB  time=117.3s
+Ep119 train=79.57% val=77.30% σ̂=3.678 hσ=  3.7  mem=    18/   325 MB  time=117.3s
+Ep120 train=79.59% val=77.67% σ̂=3.110 hσ=  3.1  mem=    18/   325 MB  time=117.3s
+Ep121 train=79.30% val=76.95% σ̂=3.543 hσ=  3.5  mem=    18/   325 MB  time=117.3s
+Ep122 train=79.43% val=77.26% σ̂=3.849 hσ=  3.8  mem=    18/   325 MB  time=117.4s
+Ep123 train=79.99% val=77.34% σ̂=3.002 hσ=  3.0  mem=    18/   325 MB  time=117.4s
+Ep124 train=79.57% val=77.48% σ̂=4.040 hσ=  4.0  mem=    18/   325 MB  time=117.3s
+Ep125 train=79.76% val=77.38% σ̂=3.749 hσ=  3.7  mem=    18/   325 MB  time=117.3s
+Ep126 train=80.37% val=77.80% σ̂=3.671 hσ=  3.7  mem=    18/   325 MB  time=117.4s
+Ep127 train=79.65% val=77.39% σ̂=3.363 hσ=  3.4  mem=    18/   325 MB  time=117.3s
+Ep128 train=80.24% val=78.01% σ̂=3.594 hσ=  3.6  mem=    18/   325 MB  time=117.3s
+Ep129 train=79.99% val=77.57% σ̂=3.836 hσ=  3.8  mem=    18/   325 MB  time=117.4s
+Ep130 train=79.68% val=77.50% σ̂=3.395 hσ=  3.4  mem=    18/   325 MB  time=117.4s
+Ep131 train=79.96% val=77.58% σ̂=3.352 hσ=  3.4  mem=    18/   325 MB  time=117.3s
+Ep132 train=80.25% val=77.92% σ̂=3.409 hσ=  3.4  mem=    18/   325 MB  time=117.4s
+Ep133 train=80.14% val=77.66% σ̂=2.975 hσ=  3.0  mem=    18/   325 MB  time=117.4s
+Ep134 train=80.33% val=77.88% σ̂=3.790 hσ=  3.8  mem=    18/   325 MB  time=117.4s
+Ep135 train=80.19% val=78.14% σ̂=4.145 hσ=  4.1  mem=    18/   325 MB  time=117.4s
+Ep136 train=80.38% val=77.29% σ̂=4.032 hσ=  4.0  mem=    18/   325 MB  time=117.3s
+Ep137 train=80.71% val=78.31% σ̂=3.655 hσ=  3.7  mem=    18/   325 MB  time=117.4s
+Ep138 train=80.47% val=77.86% σ̂=3.498 hσ=  3.5  mem=    18/   325 MB  time=117.4s
+Ep139 train=80.62% val=78.14% σ̂=3.294 hσ=  3.3  mem=    18/   325 MB  time=117.4s
+Ep140 train=80.29% val=77.91% σ̂=3.860 hσ=  3.9  mem=    18/   325 MB  time=117.4s
+Ep141 train=80.40% val=78.41% σ̂=3.664 hσ=  3.7  mem=    18/   325 MB  time=117.4s
+Ep142 train=80.03% val=76.98% σ̂=4.042 hσ=  4.0  mem=    18/   325 MB  time=117.3s
+Ep143 train=80.41% val=77.98% σ̂=4.089 hσ=  4.1  mem=    18/   325 MB  time=117.4s
+Ep144 train=80.43% val=77.83% σ̂=3.189 hσ=  3.2  mem=    18/   325 MB  time=117.4s
+Ep145 train=80.50% val=78.49% σ̂=3.420 hσ=  3.4  mem=    18/   325 MB  time=117.4s
+Ep146 train=80.55% val=78.02% σ̂=3.742 hσ=  3.7  mem=    18/   325 MB  time=117.3s
+Ep147 train=80.31% val=78.33% σ̂=4.088 hσ=  4.1  mem=    18/   325 MB  time=117.3s
+Ep148 train=80.76% val=78.15% σ̂=3.690 hσ=  3.7  mem=    18/   325 MB  time=117.4s
+Ep149 train=80.81% val=78.00% σ̂=3.870 hσ=  3.9  mem=    18/   325 MB  time=117.4s
+Ep150 train=80.71% val=78.26% σ̂=3.823 hσ=  3.8  mem=    18/   325 MB  time=117.3s
+Ep151 train=80.71% val=78.09% σ̂=3.557 hσ=  3.6  mem=    18/   325 MB  time=117.4s
+Ep152 train=80.80% val=78.34% σ̂=3.309 hσ=  3.3  mem=    18/   325 MB  time=117.4s
+Ep153 train=80.93% val=78.49% σ̂=3.112 hσ=  3.1  mem=    18/   325 MB  time=117.3s
+Ep154 train=80.92% val=78.26% σ̂=3.515 hσ=  3.5  mem=    18/   325 MB  time=117.4s
+Ep155 train=80.91% val=77.93% σ̂=3.422 hσ=  3.4  mem=    18/   325 MB  time=117.4s
+Ep156 train=81.04% val=78.82% σ̂=3.501 hσ=  3.5  mem=    18/   325 MB  time=117.4s
+Ep157 train=80.68% val=78.46% σ̂=3.549 hσ=  3.5  mem=    18/   325 MB  time=117.3s
+Ep158 train=80.98% val=78.33% σ̂=3.690 hσ=  3.7  mem=    18/   325 MB  time=117.3s
+Ep159 train=81.22% val=78.56% σ̂=3.527 hσ=  3.5  mem=    18/   325 MB  time=117.4s
+Ep160 train=80.69% val=78.18% σ̂=3.598 hσ=  3.6  mem=    18/   325 MB  time=117.3s
+Ep161 train=81.27% val=78.37% σ̂=3.596 hσ=  3.6  mem=    18/   325 MB  time=117.3s
+Ep162 train=81.14% val=78.58% σ̂=4.051 hσ=  4.1  mem=    18/   325 MB  time=117.3s
+Ep163 train=81.32% val=78.15% σ̂=3.747 hσ=  3.7  mem=    18/   325 MB  time=117.4s
+Ep164 train=81.35% val=78.62% σ̂=3.800 hσ=  3.8  mem=    18/   325 MB  time=117.3s
+Ep165 train=81.06% val=78.70% σ̂=3.343 hσ=  3.3  mem=    18/   325 MB  time=117.4s
+Ep166 train=81.04% val=78.59% σ̂=3.841 hσ=  3.8  mem=    18/   325 MB  time=117.3s
+Ep167 train=81.33% val=78.85% σ̂=3.423 hσ=  3.4  mem=    18/   325 MB  time=117.4s
+Ep168 train=81.33% val=78.55% σ̂=3.766 hσ=  3.8  mem=    18/   325 MB  time=117.4s
+Ep169 train=81.04% val=78.51% σ̂=3.426 hσ=  3.4  mem=    18/   325 MB  time=117.3s
+Ep170 train=81.31% val=78.62% σ̂=3.295 hσ=  3.3  mem=    18/   325 MB  time=117.3s
+Ep171 train=81.20% val=78.51% σ̂=3.385 hσ=  3.4  mem=    18/   325 MB  time=117.4s
+Ep172 train=81.43% val=78.63% σ̂=3.419 hσ=  3.4  mem=    18/   325 MB  time=117.4s
+Ep173 train=81.22% val=78.32% σ̂=3.437 hσ=  3.4  mem=    18/   325 MB  time=117.4s
+Ep174 train=81.22% val=78.43% σ̂=3.683 hσ=  3.7  mem=    18/   325 MB  time=117.4s
+Ep175 train=81.44% val=78.81% σ̂=3.959 hσ=  4.0  mem=    18/   325 MB  time=117.4s
+Ep176 train=81.41% val=78.61% σ̂=3.600 hσ=  3.6  mem=    18/   325 MB  time=117.4s
+Ep177 train=81.42% val=78.14% σ̂=3.626 hσ=  3.6  mem=    18/   325 MB  time=117.4s
+Ep178 train=81.36% val=79.10% σ̂=3.562 hσ=  3.6  mem=    18/   325 MB  time=117.4s
+Ep179 train=81.33% val=78.94% σ̂=3.880 hσ=  3.9  mem=    18/   325 MB  time=117.4s
+Ep180 train=81.45% val=78.76% σ̂=3.899 hσ=  3.9  mem=    18/   325 MB  time=117.3s
+Ep181 train=81.23% val=78.99% σ̂=3.182 hσ=  3.2  mem=    18/   325 MB  time=117.4s
+
+Ep182 train=81.45% val=78.88% σ̂=3.962 hσ=  4.0  mem=    18/   325 MB  time=117.4s
+Ep183 train=81.54% val=78.49% σ̂=3.565 hσ=  3.6  mem=    18/   325 MB  time=117.3s
+Ep184 train=81.42% val=78.87% σ̂=3.438 hσ=  3.4  mem=    18/   325 MB  time=117.4s
+Ep185 train=81.52% val=78.92% σ̂=3.263 hσ=  3.3  mem=    18/   325 MB  time=117.3s
+Ep186 train=81.46% val=78.80% σ̂=3.680 hσ=  3.7  mem=    18/   325 MB  time=117.4s
+Ep187 train=81.22% val=78.46% σ̂=3.525 hσ=  3.5  mem=    18/   325 MB  time=117.3s
+Ep188 train=81.46% val=78.43% σ̂=3.961 hσ=  4.0  mem=    18/   325 MB  time=117.3s
+Ep189 train=81.47% val=78.84% σ̂=3.268 hσ=  3.3  mem=    18/   325 MB  time=117.4s
+Ep190 train=81.43% val=78.61% σ̂=3.895 hσ=  3.9  mem=    18/   325 MB  time=117.4s
+Ep191 train=81.43% val=78.89% σ̂=3.540 hσ=  3.5  mem=    18/   325 MB  time=117.4s
+Ep192 train=81.28% val=79.02% σ̂=3.380 hσ=  3.4  mem=    18/   325 MB  time=117.4s
+Ep193 train=81.63% val=79.35% σ̂=3.178 hσ=  3.2  mem=    18/   325 MB  time=117.3s
+Ep194 train=81.65% val=78.82% σ̂=3.535 hσ=  3.5  mem=    18/   325 MB  time=117.4s
+Ep195 train=81.45% val=79.02% σ̂=3.341 hσ=  3.3  mem=    18/   325 MB  time=117.3s
+Ep196 train=81.65% val=78.82% σ̂=3.359 hσ=  3.4  mem=    18/   325 MB  time=117.4s
+Ep197 train=81.64% val=78.72% σ̂=3.420 hσ=  3.4  mem=    18/   325 MB  time=117.3s
+Ep198 train=81.47% val=79.17% σ̂=3.718 hσ=  3.7  mem=    18/   325 MB  time=117.4s
+Ep199 train=81.48% val=79.01% σ̂=3.117 hσ=  3.1  mem=    18/   325 MB  time=117.3s
+Total time: 391.3 min
+Traceback (most recent call last):
+  File "/home/gavin/bx.py", line 363, in <module>
+    train_loop(args)
+  File "/home/gavin/bx.py", line 313, in train_loop
+    if torchattacks is not None:
+NameError: name 'torchattacks' is not defined
+gavin@Nitro-AN515-58-df85a443:~$ 
