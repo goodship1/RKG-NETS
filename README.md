@@ -55,7 +55,7 @@ This gives **robust performance at h=1 or even larger** — outperforming conven
 
 ## 📊 Example results:
 - CIFAR-10, ESRK-15 block, 19k params:
-  - Large stable step sizes (`h=1`, `steps=1`)  
+  - Large stable step sizes (`h=30`, `steps=1`)  
   - Fast training convergence  
   - Quantizable to INT8 for low-resource inference
 
